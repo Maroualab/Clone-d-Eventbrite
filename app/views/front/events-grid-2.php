@@ -38,7 +38,7 @@
 	    All CSS File
 	============================== -->
   <!-- Bootstrap -->
-  <!-- <link rel="stylesheet" href="assets/css/app.min.css"> -->
+  <!-- <link rel="stylesheet" href="../../../public/assets/css/app.min.css"> -->
   <link rel="stylesheet" href="../../../public/assets/css/bootstrap.min.css">
   <!-- Fontawesome Icon -->
   <link rel="stylesheet" href="../../../public/assets/css/fontawesome.min.css">
@@ -80,14 +80,6 @@
       </div>
       <div class="vs-mobile-menu">
         <ul>
-          <li class="menu-item-has-children">
-            <a href="index.html">Home</a>
-            <ul class="sub-menu">
-              <li><a href="index.html">Home 1</a></li>
-              <li><a href="index-2.html">Home 2</a></li>
-              <li><a href="index-3.html">Home 3</a></li>
-            </ul>
-          </li>
           <li>
             <a href="about.html">About Us</a>
           </li>
@@ -224,7 +216,7 @@
           </div>
           <div class="recent-post">
             <div class="media-img">
-              <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
+              <a href="blog-details.html"><img src="../../../public/assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
             </div>
             <div class="media-body">
               <h4 class="post-title">
@@ -290,7 +282,7 @@
           <div class="row gx-50 justify-content-between align-items-center gx-sm-0">
             <div class="col">
               <div class="header-logo">
-                <a href="index.html"><img src="assets/img/logo.svg" alt="Eventino" class="logo" width="135" height="60px"></a>
+                <a href="index.html"><img src="../../../public/assets/img/logo.svg" alt="Eventino" class="logo" width="135" height="60px"></a>
               </div>
             </div>
             <div class="col-auto header-info d-none d-lg-flex pe-0">
@@ -453,96 +445,557 @@
     <img src="../../../public/assets/img/shapes/b-1-1.png" alt="shape" class="shape">
     <div class="container z-index-common">
       <div class="breadcumb-content">
-        <h1 class="breadcumb-title">Login</h1>
+        <h1 class="breadcumb-title">Events Grid</h1>
         <div class="breadcumb-menu-wrap">
           <ul class="breadcumb-menu">
             <li><a href="index.html">Home</a></li>
             <li>Pages</li>
-            <li>Login</li>
+            <li>Events</li>
           </ul>
         </div>
       </div>
     </div>
   </div>
-  <!-- Service Area -->
-  <!-- Login Area -->
-  <section class="space-top space-extra-bottom">
+  <div class="container">
+    <form class="form-style3 ajax-contact" action="mail.php" method="post">
+      <div class="row justify-content-between gx-10">
+        <div class="col-lg-auto form-group">
+          <input class="form-control" type="text" name="fname" id="funame" placeholder="Events Name...">
+        </div>
+        <div class="col-lg-auto form-group">
+          <select class="form-control" name="subject" id="subject">
+            <option value="Category">Category</option>
+            <option value="Oil Change">Oil Change</option>
+            <option value="Tire Rotation">Tire Rotation</option>
+            <option value="Brake Inspection">Brake Inspection</option>
+            <option value="Engine Tune-Up">Engine Tune-Up</option>
+            <option value="Transmission Flush">Transmission Flush</option>
+          </select>
+        </div>
+        <div class="col-lg-auto form-group">
+          <select class="form-control" name="subject" id="subject">
+            <option value="Location">Location</option>
+            <option value="Oil Change">Oil Change</option>
+            <option value="Tire Rotation">Tire Rotation</option>
+            <option value="Brake Inspection">Brake Inspection</option>
+            <option value="Engine Tune-Up">Engine Tune-Up</option>
+            <option value="Transmission Flush">Transmission Flush</option>
+          </select>
+        </div>
+        <div class="col-lg-auto form-group">
+          <select class="form-control" name="subject" id="subject">
+            <option value="Organizer">Organizer</option>
+            <option value="Oil Change">Oil Change</option>
+            <option value="Tire Rotation">Tire Rotation</option>
+            <option value="Brake Inspection">Brake Inspection</option>
+            <option value="Engine Tune-Up">Engine Tune-Up</option>
+            <option value="Transmission Flush">Transmission Flush</option>
+          </select>
+        </div>
+        <div class="col-lg-auto form-group">
+          <select class="form-control" name="subject" id="subject">
+            <option value="Status">Status</option>
+            <option value="Oil Change">Oil Change</option>
+            <option value="Tire Rotation">Tire Rotation</option>
+            <option value="Brake Inspection">Brake Inspection</option>
+            <option value="Engine Tune-Up">Engine Tune-Up</option>
+            <option value="Transmission Flush">Transmission Flush</option>
+          </select>
+        </div>
+        <div class="col-lg-auto form-group">
+          <input class="form-control" type="date" name="tel" id="tel" placeholder="Start Date">
+        </div>
+        <div class="col-lg-auto form-group">
+          <button class="vs-btn style2 mt-0 w-100" type="submit">Register Now</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <!-- Events Grid -->
+  <div class="event-details space-top space-extra-bottom">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-6 mx-auto">
-          <div class="auth-style">
+      <div class="row align-items-center justify-content-center justify-content-lg-between">
+        <div class="col-auto mb-40">
+          <p class="event-title-count">9 Search results from 30 events</p>
+        </div>
+        <div class="col-auto mb-40">
+          <div class="event-tab">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
               <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Login</button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Register</button>
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+                  <i class="fas fa-th"></i>
+                </button>
               </li>
             </ul>
-            <div class="auth-social">
-              <h5 class="auth-title">Log In Directly With</h5>
-              <div class="footer-social style3">
-                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.google.com/"><i class="fab fa-google"></i></a>
-                <a href="https://www.gmail.com/"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="tab-content" id="myTabContent">
+        <!-- <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+          <div class="row">
+            <div class="col-md-6 Business Art More">
+              <div class="event-style3">
+                <div class="event-img">
+                  <img src="../../../public/assets/img/events/e-3-1.jpg" alt="e 1 1">
+                  <div class="event-tags">
+                    <a href="event-details.html">Business</a>
+                  </div>
+                  <div class="event-date">
+                    <span>20</span>
+                    January
+                  </div>
+                </div>
+                <div class="event-content">
+                  <div class="event-meta">
+                    <ul>
+                      <li>
+                        <span><i class="fas fa-clock"></i>08:00am - 22:00pm</span>
+                      </li>
+                      <li>
+                        <span><i class="fas fa-map-marker-alt"></i>245x Town 1214 Street, US</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <h3 class="event-title">
+                    <a href="event-details.html">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.
+                    </a>
+                  </h3>
+                  <p class="event-text">Lorem ipsulm siteli amet, dogflor consectetur iscing elit. siteli ipsulm
+                    am adipiscing elit.</p>
+                  <div class="event-footer">
+                    <a href="event-details.html" class="event-link">Tickets & Details</a>
+                    <span class="event-price">Price: <span>$199</span></span>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="tab-content" id="myTabContent">
-              <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-                <form class="auth-form">
-                  <label class="auth-label" for="mobile_code">Phone Number</label>
-                  <div class="form-group">
-                    <input id="phone1" type="tel" placeholder="+880">
+            <div class="col-md-6 Business Art More">
+              <div class="event-style3">
+                <div class="event-img">
+                  <img src="../../../public/assets/img/events/e-3-2.jpg" alt="e 1 1">
+                  <div class="event-tags">
+                    <a href="event-details.html">Business</a>
                   </div>
-                  <div class="d-flex">
-                    <a href="about.html" class="vs-btn w-100" tabindex="0">
-                      Log In
+                  <div class="event-date">
+                    <span>20</span>
+                    January
+                  </div>
+                </div>
+                <div class="event-content">
+                  <div class="event-meta">
+                    <ul>
+                      <li>
+                        <span><i class="fas fa-clock"></i>08:00am - 22:00pm</span>
+                      </li>
+                      <li>
+                        <span><i class="fas fa-map-marker-alt"></i>245x Town 1214 Street, US</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <h3 class="event-title">
+                    <a href="event-details.html">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.
                     </a>
+                  </h3>
+                  <p class="event-text">Lorem ipsulm siteli amet, dogflor consectetur iscing elit. siteli ipsulm
+                    am adipiscing elit.</p>
+                  <div class="event-footer">
+                    <a href="event-details.html" class="event-link">Tickets & Details</a>
+                    <span class="event-price">Price: <span>$199</span></span>
                   </div>
-                  <p class="auth-link">Not A Member? <a href="register.html">Register</a></p>
-                </form>
+                </div>
               </div>
-              <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-                <form class="auth-form style2">
-                  <div class="form-group">
-                    <label class="auth-label" for="mobile_code">First Name</label>
-                    <div>
-                      <input type="text" placeholder="First Name" class="form-control">
-                    </div>
+            </div>
+            <div class="col-md-6 Business Art More">
+              <div class="event-style3">
+                <div class="event-img">
+                  <img src="../../../public/assets/img/events/e-3-3.jpg" alt="e 1 1">
+                  <div class="event-tags">
+                    <a href="event-details.html">Business</a>
                   </div>
-                  <div class="form-group">
-                    <label class="auth-label" for="mobile_code">Last Name</label>
-                    <div>
-                      <input type="text" placeholder="Last Name" class="form-control">
-                    </div>
+                  <div class="event-date">
+                    <span>20</span>
+                    January
                   </div>
-                  <div class="form-group">
-                    <label class="auth-label" for="mobile_code">User Name</label>
-                    <div>
-                      <input type="text" placeholder="User Name" class="form-control">
-                    </div>
+                </div>
+                <div class="event-content">
+                  <div class="event-meta">
+                    <ul>
+                      <li>
+                        <span><i class="fas fa-clock"></i>08:00am - 22:00pm</span>
+                      </li>
+                      <li>
+                        <span><i class="fas fa-map-marker-alt"></i>245x Town 1214 Street, US</span>
+                      </li>
+                    </ul>
                   </div>
-                  <div class="form-group last">
-                    <label class="auth-label" for="mobile_code">Phone Number</label>
-                    <div>
-                      <input id="phone2" type="tel" placeholder="+880">
-                    </div>
-                  </div>
-                  <div class="d-flex">
-                    <a href="about.html" class="vs-btn w-100" tabindex="0">
-                      Register
+                  <h3 class="event-title">
+                    <a href="event-details.html">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.
                     </a>
+                  </h3>
+                  <p class="event-text">Lorem ipsulm siteli amet, dogflor consectetur iscing elit. siteli ipsulm
+                    am adipiscing elit.</p>
+                  <div class="event-footer">
+                    <a href="event-details.html" class="event-link">Tickets & Details</a>
+                    <span class="event-price">Price: <span>$199</span></span>
                   </div>
-                  <p class="auth-link">Already Registered? <a href="login.html">Login</a></p>
-                </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 Business Art More">
+              <div class="event-style3">
+                <div class="event-img">
+                  <img src="../../../public/assets/img/events/e-3-4.jpg" alt="e 1 1">
+                  <div class="event-tags">
+                    <a href="event-details.html">Business</a>
+                  </div>
+                  <div class="event-date">
+                    <span>20</span>
+                    January
+                  </div>
+                </div>
+                <div class="event-content">
+                  <div class="event-meta">
+                    <ul>
+                      <li>
+                        <span><i class="fas fa-clock"></i>08:00am - 22:00pm</span>
+                      </li>
+                      <li>
+                        <span><i class="fas fa-map-marker-alt"></i>245x Town 1214 Street, US</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <h3 class="event-title">
+                    <a href="event-details.html">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.
+                    </a>
+                  </h3>
+                  <p class="event-text">Lorem ipsulm siteli amet, dogflor consectetur iscing elit. siteli ipsulm
+                    am adipiscing elit.</p>
+                  <div class="event-footer">
+                    <a href="event-details.html" class="event-link">Tickets & Details</a>
+                    <span class="event-price">Price: <span>$199</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 Business Art More">
+              <div class="event-style3">
+                <div class="event-img">
+                  <img src="../../../public/assets/img/events/e-3-5.jpg" alt="e 1 1">
+                  <div class="event-tags">
+                    <a href="event-details.html">Business</a>
+                  </div>
+                  <div class="event-date">
+                    <span>20</span>
+                    January
+                  </div>
+                </div>
+                <div class="event-content">
+                  <div class="event-meta">
+                    <ul>
+                      <li>
+                        <span><i class="fas fa-clock"></i>08:00am - 22:00pm</span>
+                      </li>
+                      <li>
+                        <span><i class="fas fa-map-marker-alt"></i>245x Town 1214 Street, US</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <h3 class="event-title">
+                    <a href="event-details.html">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.
+                    </a>
+                  </h3>
+                  <p class="event-text">Lorem ipsulm siteli amet, dogflor consectetur iscing elit. siteli ipsulm
+                    am adipiscing elit.</p>
+                  <div class="event-footer">
+                    <a href="event-details.html" class="event-link">Tickets & Details</a>
+                    <span class="event-price">Price: <span>$199</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 Business Art More">
+              <div class="event-style3">
+                <div class="event-img">
+                  <img src="../../../public/assets/img/events/e-3-6.jpg" alt="e 1 1">
+                  <div class="event-tags">
+                    <a href="event-details.html">Business</a>
+                  </div>
+                  <div class="event-date">
+                    <span>20</span>
+                    January
+                  </div>
+                </div>
+                <div class="event-content">
+                  <div class="event-meta">
+                    <ul>
+                      <li>
+                        <span><i class="fas fa-clock"></i>08:00am - 22:00pm</span>
+                      </li>
+                      <li>
+                        <span><i class="fas fa-map-marker-alt"></i>245x Town 1214 Street, US</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <h3 class="event-title">
+                    <a href="event-details.html">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.
+                    </a>
+                  </h3>
+                  <p class="event-text">Lorem ipsulm siteli amet, dogflor consectetur iscing elit. siteli ipsulm
+                    am adipiscing elit.</p>
+                  <div class="event-footer">
+                    <a href="event-details.html" class="event-link">Tickets & Details</a>
+                    <span class="event-price">Price: <span>$199</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-auto">
+              <div class="vs-pagination"><a href="#" class="pagi-btn">Prev</a>
+                <ul>
+                  <li><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">...</a></li>
+                  <li><a href="#">16</a></li>
+                </ul><a href="#" class="pagi-btn">next</a>
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <!-- meryam -->
+        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+          <div class="row">
+            <div class="col-md-6 col-lg-4 Business Art More">
+              <div class="event-style1">
+                <div class="event-img">
+                  <img src="../../../public/assets/img/events/e-1-1.jpg" alt="e 1 1">
+                  <div class="event-tags">
+                    <a href="event-details.html">Business</a>
+                  </div>
+                  <div class="event-date">
+                    <span>20</span>
+                    January
+                  </div>
+                </div>
+                <div class="event-content">
+                  <div class="event-meta">
+                    <ul>
+                      <li>
+                        <span><i class="fas fa-clock"></i>08:00am - 22:00pm</span>
+                      </li>
+                      <li>
+                        <span><i class="fas fa-map-marker-alt"></i>245x Town 1214 Street, US</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <h3 class="event-title h5"><a href="event-details.html">Happy New Year Reunion And Music Festival</a>
+                  </h3>
+                  <p class="event-text">Lorem ipsulm siteli amet, dogflor consectetur iscing elit. siteli ipsulm
+                    am adipiscing elit.</p>
+                  <div class="event-footer">
+                    <a href="event-details.html" class="event-link">Tickets & Details</a>
+                    <span class="event-price">Price: <span>$199</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 Education Sport Art">
+              <div class="event-style1">
+                <div class="event-img">
+                  <img src="../../../public/assets/img/events/e-1-2.jpg" alt="e 1 1">
+                  <div class="event-tags">
+                    <a href="event-details.html">Art</a>
+                  </div>
+                  <div class="event-date">
+                    <span>24</span>
+                    January
+                  </div>
+                </div>
+                <div class="event-content">
+                  <div class="event-meta">
+                    <ul>
+                      <li>
+                        <span><i class="fas fa-clock"></i>08:00am - 22:00pm</span>
+                      </li>
+                      <li>
+                        <span><i class="fas fa-map-marker-alt"></i>245x Town 1214 Street, US</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <h3 class="event-title h5"><a href="event-details.html">Happy New Year Reunion And Music Festival</a>
+                  </h3>
+                  <p class="event-text">Lorem ipsulm siteli amet, dogflor consectetur iscing elit. siteli ipsulm
+                    am adipiscing elit.</p>
+                  <div class="event-footer">
+                    <a href="event-details.html" class="event-link">Tickets & Details</a>
+                    <span class="event-price">Price: <span>$150</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 Art Education More">
+              <div class="event-style1">
+                <div class="event-img">
+                  <img src="../../../public/assets/img/events/e-1-3.jpg" alt="e 1 1">
+                  <div class="event-tags">
+                    <a href="event-details.html">Education</a>
+                  </div>
+                  <div class="event-date">
+                    <span>25</span>
+                    March
+                  </div>
+                </div>
+                <div class="event-content">
+                  <div class="event-meta">
+                    <ul>
+                      <li>
+                        <span><i class="fas fa-clock"></i>08:00am - 22:00pm</span>
+                      </li>
+                      <li>
+                        <span><i class="fas fa-map-marker-alt"></i>245x Town 1214 Street, US</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <h3 class="event-title h5"><a href="event-details.html">Happy New Year Reunion And Music Festival</a>
+                  </h3>
+                  <p class="event-text">Lorem ipsulm siteli amet, dogflor consectetur iscing elit. siteli ipsulm
+                    am adipiscing elit.</p>
+                  <div class="event-footer">
+                    <a href="event-details.html" class="event-link">Tickets & Details</a>
+                    <span class="event-price">Price: <span>$199</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 Education Business Education">
+              <div class="event-style1">
+                <div class="event-img">
+                  <img src="../../../public/assets/img/events/e-1-4.jpg" alt="e 1 1">
+                  <div class="event-tags">
+                    <a href="event-details.html">Education</a>
+                  </div>
+                  <div class="event-date">
+                    <span>15</span>
+                    January
+                  </div>
+                </div>
+                <div class="event-content">
+                  <div class="event-meta">
+                    <ul>
+                      <li>
+                        <span><i class="fas fa-clock"></i>08:00am - 22:00pm</span>
+                      </li>
+                      <li>
+                        <span><i class="fas fa-map-marker-alt"></i>245x Town 1214 Street, US</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <h3 class="event-title h5"><a href="event-details.html">Happy New Year Reunion And Music Festival</a>
+                  </h3>
+                  <p class="event-text">Lorem ipsulm siteli amet, dogflor consectetur iscing elit. siteli ipsulm
+                    am adipiscing elit.</p>
+                  <div class="event-footer">
+                    <a href="event-details.html" class="event-link">Tickets & Details</a>
+                    <span class="event-price">Price: <span>$299</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 Business Sport More">
+              <div class="event-style1">
+                <div class="event-img">
+                  <img src="../../../public/assets/img/events/e-1-5.jpg" alt="e 1 1">
+                  <div class="event-tags">
+                    <a href="event-details.html">Sport</a>
+                  </div>
+                  <div class="event-date">
+                    <span>12</span>
+                    January
+                  </div>
+                </div>
+                <div class="event-content">
+                  <div class="event-meta">
+                    <ul>
+                      <li>
+                        <span><i class="fas fa-clock"></i>08:00am - 22:00pm</span>
+                      </li>
+                      <li>
+                        <span><i class="fas fa-map-marker-alt"></i>245x Town 1214 Street, US</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <h3 class="event-title h5"><a href="event-details.html">Happy New Year Reunion And Music Festival</a>
+                  </h3>
+                  <p class="event-text">Lorem ipsulm siteli amet, dogflor consectetur iscing elit. siteli ipsulm
+                    am adipiscing elit.</p>
+                  <div class="event-footer">
+                    <a href="event-details.html" class="event-link">Tickets & Details</a>
+                    <span class="event-price">Price: <span>$199</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 Sport Festival">
+              <div class="event-style1">
+                <div class="event-img">
+                  <img src="../../../public/assets/img/events/e-1-6.jpg" alt="e 1 1">
+                  <div class="event-tags">
+                    <a href="event-details.html">Festival</a>
+                  </div>
+                  <div class="event-date">
+                    <span>10</span>
+                    January
+                  </div>
+                </div>
+                <div class="event-content">
+                  <div class="event-meta">
+                    <ul>
+                      <li>
+                        <span><i class="fas fa-clock"></i>08:00am - 22:00pm</span>
+                      </li>
+                      <li>
+                        <span><i class="fas fa-map-marker-alt"></i>245x Town 1214 Street, US</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <h3 class="event-title h5"><a href="event-details.html">Happy New Year Reunion And Music Festival</a>
+                  </h3>
+                  <p class="event-text">Lorem ipsulm siteli amet, dogflor consectetur iscing elit. siteli ipsulm
+                    am adipiscing elit.</p>
+                  <div class="event-footer">
+                    <a href="event-details.html" class="event-link">Tickets & Details</a>
+                    <span class="event-price">Price: <span>$199</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-auto">
+              <div class="vs-pagination"><a href="#" class="pagi-btn">Prev</a>
+                <ul>
+                  <li><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">...</a></li>
+                  <li><a href="#">16</a></li>
+                </ul><a href="#" class="pagi-btn">next</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <!-- Login Area End -->
+  </div>
+  <!-- Events Grid End -->
   <!-- Newsletter Area -->
   <div class="newsletter-layout1">
     <div class="overlay"></div>
@@ -628,7 +1081,7 @@
           </div>
           <div class="col-md-6 col-xl-auto">
             <div class="widget footer-widget">
-              <h3 class="widget_title">Our Instagram<img src="assets/img/shapes/d-1-1.svg"></h3>
+              <h3 class="widget_title">Our Instagram<img src="../../../public/assets/img/shapes/d-1-1.svg"></h3>
               <div class="sidebar-gallery">
                 <div class="gallery-thumb">
                   <img src="../../../public/assets/img/widget/gal-1-1.jpg" alt="Gallery Image" class="w-100">
