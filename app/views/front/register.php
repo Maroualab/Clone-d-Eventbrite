@@ -38,7 +38,7 @@
 	    All CSS File
 	============================== -->
   <!-- Bootstrap -->
-  <!-- <link rel="stylesheet" href="assets/css/app.min.css"> -->
+  <!-- <link rel="stylesheet" href="../../../public/assets/css/app.min.css"> -->
   <link rel="stylesheet" href="../../../public/assets/css/bootstrap.min.css">
   <!-- Fontawesome Icon -->
   <link rel="stylesheet" href="../../../public/assets/css/fontawesome.min.css">
@@ -80,6 +80,14 @@
       </div>
       <div class="vs-mobile-menu">
         <ul>
+          <li class="menu-item-has-children">
+            <a href="index.html">Home</a>
+            <ul class="sub-menu">
+              <li><a href="index.html">Home 1</a></li>
+              <li><a href="index-2.html">Home 2</a></li>
+              <li><a href="index-3.html">Home 3</a></li>
+            </ul>
+          </li>
           <li>
             <a href="about.html">About Us</a>
           </li>
@@ -216,7 +224,7 @@
           </div>
           <div class="recent-post">
             <div class="media-img">
-              <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
+              <a href="blog-details.html"><img src="../../../public/assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
             </div>
             <div class="media-body">
               <h4 class="post-title">
@@ -282,7 +290,7 @@
           <div class="row gx-50 justify-content-between align-items-center gx-sm-0">
             <div class="col">
               <div class="header-logo">
-                <a href="index.html"><img src="assets/img/logo.svg" alt="Eventino" class="logo" width="135" height="60px"></a>
+                <a href="index.html"><img src="../../../public/assets/img/logo.svg" alt="Eventino" class="logo" width="135" height="60px"></a>
               </div>
             </div>
             <div class="col-auto header-info d-none d-lg-flex pe-0">
@@ -445,12 +453,12 @@
     <img src="../../../public/assets/img/shapes/b-1-1.png" alt="shape" class="shape">
     <div class="container z-index-common">
       <div class="breadcumb-content">
-        <h1 class="breadcumb-title">Login</h1>
+        <h1 class="breadcumb-title">Registration</h1>
         <div class="breadcumb-menu-wrap">
           <ul class="breadcumb-menu">
             <li><a href="index.html">Home</a></li>
             <li>Pages</li>
-            <li>Login</li>
+            <li>Registration</li>
           </ul>
         </div>
       </div>
@@ -465,10 +473,10 @@
           <div class="auth-style">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
               <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Login</button>
+                <button class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="false">Login</button>
               </li>
               <li class="nav-item" role="presentation">
-                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Register</button>
+                <button class="nav-link active" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="true">Register</button>
               </li>
             </ul>
             <div class="auth-social">
@@ -480,7 +488,7 @@
               </div>
             </div>
             <div class="tab-content" id="myTabContent">
-              <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+              <div class="tab-pane fade" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
                 <form class="auth-form">
                   <label class="auth-label" for="mobile_code">Phone Number</label>
                   <div class="form-group">
@@ -494,7 +502,7 @@
                   <p class="auth-link">Not A Member? <a href="register.html">Register</a></p>
                 </form>
               </div>
-              <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+              <div class="tab-pane fade show active" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
                 <form class="auth-form style2">
                   <div class="form-group">
                     <label class="auth-label" for="mobile_code">First Name</label>
@@ -620,7 +628,7 @@
           </div>
           <div class="col-md-6 col-xl-auto">
             <div class="widget footer-widget">
-              <h3 class="widget_title">Our Instagram<img src="assets/img/shapes/d-1-1.svg"></h3>
+              <h3 class="widget_title">Our Instagram<img src="../../../public/assets/img/shapes/d-1-1.svg"></h3>
               <div class="sidebar-gallery">
                 <div class="gallery-thumb">
                   <img src="../../../public/assets/img/widget/gal-1-1.jpg" alt="Gallery Image" class="w-100">

@@ -38,7 +38,7 @@
 	    All CSS File
 	============================== -->
   <!-- Bootstrap -->
-  <!-- <link rel="stylesheet" href="assets/css/app.min.css"> -->
+  <!-- <link rel="stylesheet" href="../../../public/assets/css/app.min.css"> -->
   <link rel="stylesheet" href="../../../public/assets/css/bootstrap.min.css">
   <!-- Fontawesome Icon -->
   <link rel="stylesheet" href="../../../public/assets/css/fontawesome.min.css">
@@ -80,6 +80,14 @@
       </div>
       <div class="vs-mobile-menu">
         <ul>
+          <li class="menu-item-has-children">
+            <a href="index.html">Home</a>
+            <ul class="sub-menu">
+              <li><a href="index.html">Home 1</a></li>
+              <li><a href="index-2.html">Home 2</a></li>
+              <li><a href="index-3.html">Home 3</a></li>
+            </ul>
+          </li>
           <li>
             <a href="about.html">About Us</a>
           </li>
@@ -216,7 +224,7 @@
           </div>
           <div class="recent-post">
             <div class="media-img">
-              <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
+              <a href="blog-details.html"><img src="../../../public/assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
             </div>
             <div class="media-body">
               <h4 class="post-title">
@@ -282,7 +290,7 @@
           <div class="row gx-50 justify-content-between align-items-center gx-sm-0">
             <div class="col">
               <div class="header-logo">
-                <a href="index.html"><img src="assets/img/logo.svg" alt="Eventino" class="logo" width="135" height="60px"></a>
+                <a href="index.html"><img src="../../../public/assets/img/logo.svg" alt="Eventino" class="logo" width="135" height="60px"></a>
               </div>
             </div>
             <div class="col-auto header-info d-none d-lg-flex pe-0">
@@ -445,96 +453,356 @@
     <img src="../../../public/assets/img/shapes/b-1-1.png" alt="shape" class="shape">
     <div class="container z-index-common">
       <div class="breadcumb-content">
-        <h1 class="breadcumb-title">Login</h1>
+        <h1 class="breadcumb-title">Events Booking</h1>
         <div class="breadcumb-menu-wrap">
           <ul class="breadcumb-menu">
             <li><a href="index.html">Home</a></li>
             <li>Pages</li>
-            <li>Login</li>
+            <li>Events Booking</li>
           </ul>
         </div>
       </div>
     </div>
   </div>
-  <!-- Service Area -->
-  <!-- Login Area -->
-  <section class="space-top space-extra-bottom">
+  <!-- Event Registration -->
+  <section class="ebooking-wrap1 smoke-bg">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-6 mb-30">
+          <h2 class="sec-title">Please Complete Registration Within 12.00 Hours</h2>
+          <p class="sec-text mb-0">After 12.00 hours, the reservation we’re holding will be released to others.</p>
+        </div>
+        <div class="col-lg-auto mb-30">
+          <ul class="offer-counter" data-offer-date="12/08/2024">
+            <li>
+              <div class="day count-number">00</div><span class="count-name">Days</span>
+            </li>
+            <li>
+              <div class="hour count-number">00</div><span class="count-name">Hours</span>
+            </li>
+            <li>
+              <div class="minute count-number">00</div><span class="count-name">Minutes</span>
+            </li>
+            <li>
+              <div class="seconds count-number">00</div><span class="count-name">Seconds</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Event Registration End -->
+  <!-- Event Details -->
+  <div class="space-top space-extra-bottom">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 mx-auto">
-          <div class="auth-style">
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-              <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Login</button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Register</button>
-              </li>
-            </ul>
-            <div class="auth-social">
-              <h5 class="auth-title">Log In Directly With</h5>
-              <div class="footer-social style3">
-                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.google.com/"><i class="fab fa-google"></i></a>
-                <a href="https://www.gmail.com/"><i class="fas fa-envelope"></i></a>
+        <div class="col-lg-8">
+          <h3 class="sec-title">Order Summary</h3>
+          <div class="order-summmary ebooking-wrap2">
+            <table>
+              <tr>
+                <th>Event Title</th>
+                <th>Cost</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+              </tr>
+              <tr>
+                <td>Service And Getaway Fee</td>
+                <td>$199.00</td>
+                <td>05</td>
+                <td>$995.00</td>
+              </tr>
+              <tr>
+                <td>Dhaka University Festival...</td>
+                <td>$199.00</td>
+                <td>05</td>
+                <td>$995.00</td>
+              </tr>
+              <tr>
+                <td>Order Total</td>
+                <td> - </td>
+                <td> - </td>
+                <td>$1,990.00</td>
+              </tr>
+            </table>
+          </div>
+          <h3 class="sec-title mb-30">Registration Information</h3>
+          <form class="form-style4 ajax-contact mb-50" action="mail.php" method="post">
+            <h4 class="sec-title h5 mb-25">Ticket Buyer</h4>
+            <div class="row gx-20 mb-20">
+              <div class="col-md-6 form-group">
+                <input class="form-control" type="text" name="fname" id="finame" placeholder="First Name">
+              </div>
+              <div class="col-md-6 form-group">
+                <input class="form-control" type="text" name="lname" id="laname" placeholder="Last Name">
+              </div>
+              <div class="col-md-6 form-group">
+                <input class="form-control" type="email" name="email" id="email" placeholder="Email Address">
+              </div>
+              <div class="col-md-6 form-group">
+                <input class="form-control" type="email" name="email" id="email" placeholder="Confirm Email Address">
               </div>
             </div>
-            <div class="tab-content" id="myTabContent">
-              <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-                <form class="auth-form">
-                  <label class="auth-label" for="mobile_code">Phone Number</label>
-                  <div class="form-group">
-                    <input id="phone1" type="tel" placeholder="+880">
-                  </div>
-                  <div class="d-flex">
-                    <a href="about.html" class="vs-btn w-100" tabindex="0">
-                      Log In
-                    </a>
-                  </div>
-                  <p class="auth-link">Not A Member? <a href="register.html">Register</a></p>
-                </form>
+            <h4 class="sec-title h5 mb-25">Payment</h4>
+            <div class="row gx-20 mb-10">
+              <div class="col-md-6 form-group">
+                <select class="form-control" name="subject" id="subject" tabindex="0">
+                  <option value="Select Your Payment Method">Select Your Payment Method</option>
+                  <option value="Oil Change">Oil Change</option>
+                  <option value="Tire Rotation">Tire Rotation</option>
+                  <option value="Brake Inspection">Brake Inspection</option>
+                  <option value="Engine Tune-Up">Engine Tune-Up</option>
+                  <option value="Transmission Flush">Transmission Flush</option>
+                </select>
               </div>
-              <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-                <form class="auth-form style2">
-                  <div class="form-group">
-                    <label class="auth-label" for="mobile_code">First Name</label>
-                    <div>
-                      <input type="text" placeholder="First Name" class="form-control">
+              <div class="col-md-6 form-group">
+                <input class="form-control" type="tel" name="tel" id="tel" placeholder="Number" tabindex="0">
+              </div>
+            </div>
+            <h4 class="sec-title h5 mb-25">Expired Date</h4>
+            <div class="row gx-20 mb-10">
+              <div class="col-md-4 form-group">
+                <select class="form-control" name="subject" id="subject" tabindex="0">
+                  <option value="Select Your Payment Method">Select Your Payment Method</option>
+                  <option value="Oil Change">Oil Change</option>
+                  <option value="Tire Rotation">Tire Rotation</option>
+                  <option value="Brake Inspection">Brake Inspection</option>
+                  <option value="Engine Tune-Up">Engine Tune-Up</option>
+                  <option value="Transmission Flush">Transmission Flush</option>
+                </select>
+              </div>
+              <div class="col-md-4 form-group">
+                <select class="form-control" name="subject" id="subject" tabindex="0">
+                  <option value="Year">Year</option>
+                  <option value="Oil Change">Oil Change</option>
+                  <option value="Tire Rotation">Tire Rotation</option>
+                  <option value="Brake Inspection">Brake Inspection</option>
+                  <option value="Engine Tune-Up">Engine Tune-Up</option>
+                  <option value="Transmission Flush">Transmission Flush</option>
+                </select>
+              </div>
+              <div class="col-md-4 form-group">
+                <input class="form-control" type="tel" name="tel" id="tel" placeholder="CSV" tabindex="0">
+              </div>
+            </div>
+          </form>
+          <h3 class="sec-title mb-30">Billing Information</h3>
+          <form class="form-style4 ajax-contact" action="mail.php" method="post">
+            <div class="row gx-20 mb-30">
+              <div class="col-md-6 form-group">
+                <select class="form-control" name="subject" id="subject" tabindex="0">
+                  <option value="Select Country">Select Country</option>
+                  <option value="Oil Change">Oil Change</option>
+                  <option value="Tire Rotation">Tire Rotation</option>
+                  <option value="Brake Inspection">Brake Inspection</option>
+                  <option value="Engine Tune-Up">Engine Tune-Up</option>
+                  <option value="Transmission Flush">Transmission Flush</option>
+                </select>
+              </div>
+              <div class="col-md-6 form-group">
+                <input class="form-control" type="text" name="lname" id="laname" placeholder="Address">
+              </div>
+              <div class="col-md-12 form-group">
+                <input class="form-control" type="email" name="email" id="email" placeholder="Alternative Address">
+              </div>
+              <div class="col-md-4 form-group">
+                <select class="form-control" name="subject" id="subject" tabindex="0">
+                  <option value="States">States</option>
+                  <option value="Oil Change">Oil Change</option>
+                  <option value="Tire Rotation">Tire Rotation</option>
+                  <option value="Brake Inspection">Brake Inspection</option>
+                  <option value="Engine Tune-Up">Engine Tune-Up</option>
+                  <option value="Transmission Flush">Transmission Flush</option>
+                </select>
+              </div>
+              <div class="col-md-4 form-group">
+                <select class="form-control" name="subject" id="subject" tabindex="0">
+                  <option value="City">City</option>
+                  <option value="Oil Change">Oil Change</option>
+                  <option value="Tire Rotation">Tire Rotation</option>
+                  <option value="Brake Inspection">Brake Inspection</option>
+                  <option value="Engine Tune-Up">Engine Tune-Up</option>
+                  <option value="Transmission Flush">Transmission Flush</option>
+                </select>
+              </div>
+              <div class="col-md-4 form-group">
+                <input class="form-control" type="email" name="email" id="email" placeholder="Zip Code">
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex pt-10">
+                  <a href="about.html" class="vs-btn w-100" tabindex="0">
+                    Pay Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-4">
+          <div class="sidebar-area">
+            <div class="widget">
+              <h3 class="widget_title">
+                Event Details
+                <img src="../../../public/assets/img/shapes/d-1-2.svg">
+              </h3>
+              <ul class="wp-block-categories-list wp-block-details">
+                <li>
+                  <div class="item-card">
+                    <div class="item-icon">
+                      <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <div class="item-content">
+                      <span class="item-title">Start Date</span>
+                      <span class="item-text">March 27, 2023 - 12:30am</span>
                     </div>
                   </div>
-                  <div class="form-group">
-                    <label class="auth-label" for="mobile_code">Last Name</label>
-                    <div>
-                      <input type="text" placeholder="Last Name" class="form-control">
+                </li>
+                <li>
+                  <div class="item-card">
+                    <div class="item-icon">
+                      <i class="fas fa-calendar-times"></i>
+                    </div>
+                    <div class="item-content">
+                      <span class="item-title">Close Date</span>
+                      <span class="item-text">March 27, 2023 - 10:30pm</span>
                     </div>
                   </div>
-                  <div class="form-group">
-                    <label class="auth-label" for="mobile_code">User Name</label>
-                    <div>
-                      <input type="text" placeholder="User Name" class="form-control">
+                </li>
+                <li>
+                  <div class="item-card">
+                    <div class="item-icon">
+                      <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="item-content">
+                      <span class="item-title">Statues</span>
+                      <span class="item-text">Showing</span>
                     </div>
                   </div>
-                  <div class="form-group last">
-                    <label class="auth-label" for="mobile_code">Phone Number</label>
-                    <div>
-                      <input id="phone2" type="tel" placeholder="+880">
+                </li>
+                <li>
+                  <div class="item-card">
+                    <div class="item-icon">
+                      <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="item-content">
+                      <span class="item-title">Location</span>
+                      <span class="item-text">Dhaka University, Dhaka, Bangladesh</span>
                     </div>
                   </div>
-                  <div class="d-flex">
-                    <a href="about.html" class="vs-btn w-100" tabindex="0">
-                      Register
-                    </a>
+                </li>
+                <li>
+                  <div class="item-card">
+                    <div class="item-icon">
+                      <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <div class="item-content">
+                      <span class="item-title">Venue</span>
+                      <span class="item-text">Dhaka University, Auditorium</span>
+                    </div>
                   </div>
-                  <p class="auth-link">Already Registered? <a href="login.html">Login</a></p>
-                </form>
+                </li>
+                <li>
+                  <div class="item-card">
+                    <div class="item-icon">
+                      <i class="fas fa-tags"></i>
+                    </div>
+                    <div class="item-content">
+                      <span class="item-title">Price</span>
+                      <span class="item-text">$199 / Person</span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="item-card">
+                    <div class="item-icon">
+                      <i class="fas fa-user"></i>
+                    </div>
+                    <div class="item-content">
+                      <span class="item-title">Organizer</span>
+                      <span class="item-text">Planet X</span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="item-card">
+                    <div class="item-icon">
+                      <i class="fas fa-folder-open"></i>
+                    </div>
+                    <div class="item-content">
+                      <span class="item-title">Category</span>
+                      <span class="item-text">Festival</span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="item-card">
+                    <div class="item-icon">
+                      <i class="fas fa-ticket-alt"></i>
+                    </div>
+                    <div class="item-content">
+                      <span class="item-title">Remaining Tickets</span>
+                      <span class="item-text">650 Tickets</span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="item-card">
+                    <div class="item-icon">
+                      <i class="fas fa-share-alt-square"></i>
+                    </div>
+                    <div class="item-content">
+                      <span class="item-title">Networks</span>
+                      <ul class="social-links">
+                        <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <a href="about.html" class="vs-btn w-100" tabindex="0">
+                Buy Ticket
+              </a>
+            </div>
+            <div class="widget">
+              <h3 class="widget_title">
+                Organizer Details
+                <img src="../../../public/assets/img/shapes/d-1-2.svg">
+              </h3>
+              <div class="sidebar-info">
+                <div class="info-logo">
+                  <img src="../../../public/assets/img/brand/sidebar-brand-1-1.png" alt="logo">
+                </div>
+                <div class="info-list">
+                  <h3 class="sec-title">Planet</h3>
+                  <ul>
+                    <li>
+                      <i class="fas fa-phone-alt"></i>
+                      <a href="tel:+052 (699) 256 - 009">052 (699) 256 - 009</a>
+                    </li>
+                    <li>
+                      <i class="fas fa-envelope"></i>
+                      <a href="mailto:example@planetinfo.com">example@planetinfo.com</a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-behance"></i></a>
+                      <a href="#"><i class="fab fa-youtube"></i></a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <!-- Login Area End -->
+  </div>
+  <!-- Event Details End -->
   <!-- Newsletter Area -->
   <div class="newsletter-layout1">
     <div class="overlay"></div>
@@ -620,7 +888,7 @@
           </div>
           <div class="col-md-6 col-xl-auto">
             <div class="widget footer-widget">
-              <h3 class="widget_title">Our Instagram<img src="assets/img/shapes/d-1-1.svg"></h3>
+              <h3 class="widget_title">Our Instagram<img src="../../../public/assets/img/shapes/d-1-1.svg"></h3>
               <div class="sidebar-gallery">
                 <div class="gallery-thumb">
                   <img src="../../../public/assets/img/widget/gal-1-1.jpg" alt="Gallery Image" class="w-100">

@@ -38,7 +38,7 @@
 	    All CSS File
 	============================== -->
   <!-- Bootstrap -->
-  <!-- <link rel="stylesheet" href="assets/css/app.min.css"> -->
+  <!-- <link rel="stylesheet" href="../../../public/assets/css/app.min.css"> -->
   <link rel="stylesheet" href="../../../public/assets/css/bootstrap.min.css">
   <!-- Fontawesome Icon -->
   <link rel="stylesheet" href="../../../public/assets/css/fontawesome.min.css">
@@ -80,6 +80,14 @@
       </div>
       <div class="vs-mobile-menu">
         <ul>
+          <li class="menu-item-has-children">
+            <a href="index.html">Home</a>
+            <ul class="sub-menu">
+              <li><a href="index.html">Home 1</a></li>
+              <li><a href="index-2.html">Home 2</a></li>
+              <li><a href="index-3.html">Home 3</a></li>
+            </ul>
+          </li>
           <li>
             <a href="about.html">About Us</a>
           </li>
@@ -216,7 +224,7 @@
           </div>
           <div class="recent-post">
             <div class="media-img">
-              <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
+              <a href="blog-details.html"><img src="../../../public/assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
             </div>
             <div class="media-body">
               <h4 class="post-title">
@@ -248,6 +256,9 @@
       </div>
     </div>
   </div>
+  <!--==============================
+        Header Area
+    ==============================-->
   <header class="vs-header">
     <!-- Header Top -->
     <div class="header-top v2">
@@ -282,7 +293,7 @@
           <div class="row gx-50 justify-content-between align-items-center gx-sm-0">
             <div class="col">
               <div class="header-logo">
-                <a href="index.html"><img src="assets/img/logo.svg" alt="Eventino" class="logo" width="135" height="60px"></a>
+                <a href="index.html"><img src="../../../public/assets/img/logo.svg" alt="Eventino" class="logo" width="135" height="60px"></a>
               </div>
             </div>
             <div class="col-auto header-info d-none d-lg-flex pe-0">
@@ -445,88 +456,490 @@
     <img src="../../../public/assets/img/shapes/b-1-1.png" alt="shape" class="shape">
     <div class="container z-index-common">
       <div class="breadcumb-content">
-        <h1 class="breadcumb-title">Login</h1>
+        <h1 class="breadcumb-title">About Us</h1>
         <div class="breadcumb-menu-wrap">
           <ul class="breadcumb-menu">
             <li><a href="index.html">Home</a></li>
-            <li>Pages</li>
-            <li>Login</li>
+            <li>About Us</li>
           </ul>
         </div>
       </div>
     </div>
   </div>
+  <!-- About Area Start -->
+  <section class="about space-top space-extra-bottom">
+    <div class="container">
+      <div class="row gx-40 align-items-center">
+        <div class="col-lg-6 mb-30">
+          <div class="img-box1">
+            <div class="card-style1">
+              <span class="number"><span>15</span>+</span>
+              <h3 class="title">Years of Experience</h3>
+            </div>
+            <div class="img-1">
+              <img src="../../../public/assets/img/about/a-1-1.jpg" alt="about 1 1">
+            </div>
+            <div class="img-2">
+              <img src="../../../public/assets/img/about/a-1-2.jpg" alt="about 1 2">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-30">
+          <span class="sec-subtitle">About Us</span>
+          <h2 class="sec-title">We Are Eventino, No. 1 Event Management Agency</h2>
+          <p>Lorem ipsum dolor sit amet. Rem enim sapiente sit omnis iste sit on The best of architecto asperiores aut
+            repellendus quam. Id unde harum qui quos beatae aut saepe omnis sit modi tenetur qui deleniti laudantium quo
+            rerum ipsa.</p>
+          <div class="img-3">
+            <img src="../../../public/assets/img/about/a-1-3.jpg" alt="about 1 3">
+          </div>
+          <div class="list-style1">
+            <ul>
+              <li><i class="fal fa-check-circle"></i> Non consectetur a erat nam at lectus urna</li>
+              <li><i class="fal fa-check-circle"></i> Odio aenean sed adipiscing diam donec adipiscing.</li>
+            </ul>
+          </div>
+          <div class="d-inline-flex">
+            <a href="about.html" class="vs-btn" tabindex="0">
+              More Information
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Area End -->
   <!-- Service Area -->
-  <!-- Login Area -->
+  <section class="service smoke-bg space">
+    <div class="container">
+      <div class="row justify-content-between align-items-end">
+        <div class="col-lg-6">
+          <div class="title-area">
+            <span class="sec-subtitle">Services</span>
+            <h2 class="sec-title">Get A New Experience With Eventino Services</h2>
+          </div>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <div class="sec-btns title-area">
+            <button class="vs-btn" data-slick-prev="#service-slider1">
+              <i class="far fa-arrow-left"></i>Prev
+            </button>
+            <button class="vs-btn" data-slick-next="#service-slider1">Next
+              <i class="far fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row vs-carousel" data-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2" id="service-slider1">
+        <div class="col-lg-3">
+          <div class="service-style1">
+            <div class="overlay"></div>
+            <a href="service-details.html" class="service-plus">
+              <i class="far fa-plus"></i>
+            </a>
+            <div class="service-img">
+              <img src="../../../public/assets/img/services/s-1-1.jpg" alt="service image">
+            </div>
+            <div class="service-content">
+              <h2 class="service-name"><a href="service-details.html">Business Meeting</a></h2>
+              <span class="service-price">Start from <span>$1.400-$2.000</span></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-style1">
+            <div class="overlay"></div>
+            <a href="service-details.html" class="service-plus">
+              <i class="far fa-plus"></i>
+            </a>
+            <div class="service-img">
+              <img src="../../../public/assets/img/services/s-1-2.jpg" alt="service image">
+            </div>
+            <div class="service-content">
+              <h2 class="service-name"><a href="service-details.html">Birthday Party</a></h2>
+              <span class="service-price">Start from <span>$1.400-$2.000</span></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-style1">
+            <div class="overlay"></div>
+            <a href="service-details.html" class="service-plus">
+              <i class="far fa-plus"></i>
+            </a>
+            <div class="service-img">
+              <img src="../../../public/assets/img/services/s-1-3.jpg" alt="service image">
+            </div>
+            <div class="service-content">
+              <h2 class="service-name"><a href="service-details.html">Wedding Party</a></h2>
+              <span class="service-price">Start from <span>$1.400-$2.000</span></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-style1">
+            <div class="overlay"></div>
+            <a href="service-details.html" class="service-plus">
+              <i class="far fa-plus"></i>
+            </a>
+            <div class="service-img">
+              <img src="../../../public/assets/img/services/s-1-4.jpg" alt="service image">
+            </div>
+            <div class="service-content">
+              <h2 class="service-name"><a href="service-details.html">Office Party</a></h2>
+              <span class="service-price">Start from <span>$1.400-$2.000</span></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-style1">
+            <div class="overlay"></div>
+            <a href="service-details.html" class="service-plus">
+              <i class="far fa-plus"></i>
+            </a>
+            <div class="service-img">
+              <img src="../../../public/assets/img/services/s-1-5.jpg" alt="service image">
+            </div>
+            <div class="service-content">
+              <h2 class="service-name"><a href="service-details.html">Friends Party</a></h2>
+              <span class="service-price">Start from <span>$1.400-$2.000</span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Service Area End -->
+  <!-- Team Area -->
   <section class="space-top space-extra-bottom">
     <div class="container">
+      <div class="row justify-content-between align-items-end">
+        <div class="col-lg-5">
+          <div class="title-area">
+            <span class="sec-subtitle">Team Member</span>
+            <h2 class="sec-title">Get A New Experience With Eventino</h2>
+          </div>
+        </div>
+        <div class="col-auto">
+          <div class="slide-btns">
+            <button class="vs-btn prev" data-slick-prev="#team-slider1">
+              <i class="far fa-arrow-left"></i>
+            </button>
+            <button class="vs-btn next" data-slick-next="#team-slider1">
+              <i class="far fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row vs-carousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2" id="team-slider1">
+        <div class="col-lg-4">
+          <div class="team-style1">
+            <div class="team-img">
+              <img src="../../../public/assets/img/team/team-1-1.jpg" alt="team image">
+            </div>
+            <div class="team-body">
+              <div class="team-content">
+                <div>
+                  <h4 class="team-name">Rivanur R. Rafi</h4>
+                  <span class="team-degi">CEO, Events BD</span>
+                </div>
+                <div>
+                  <div class="team-social">
+                    <ul>
+                      <li>
+                        <a href="#"><i class="far fa-share-alt"></i></a>
+                        <ul>
+                          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <ul class="team-bottom">
+                <li>
+                  <a href="tel:+88 (099) 8764 321">
+                    <span><i class="fas fa-phone-alt"></i></span>+88 (099) 8764 321
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:info@example.com">
+                    <span><i class="fas fa-envelope"></i></span>info@example.com
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="team-style1">
+            <div class="team-img">
+              <img src="../../../public/assets/img/team/team-1-2.jpg" alt="team image">
+            </div>
+            <div class="team-body">
+              <div class="team-content">
+                <div>
+                  <h4 class="team-name">Rivanur R. Rafi</h4>
+                  <span class="team-degi">CEO, Events BD</span>
+                </div>
+                <div>
+                  <div class="team-social">
+                    <ul>
+                      <li>
+                        <a href="#"><i class="far fa-share-alt"></i></a>
+                        <ul>
+                          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <ul class="team-bottom">
+                <li>
+                  <a href="tel:+88 (099) 8764 321">
+                    <span><i class="fas fa-phone-alt"></i></span>+88 (099) 8764 321
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:info@example.com">
+                    <span><i class="fas fa-envelope"></i></span>info@example.com
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="team-style1">
+            <div class="team-img">
+              <img src="../../../public/assets/img/team/team-1-3.jpg" alt="team image">
+            </div>
+            <div class="team-body">
+              <div class="team-content">
+                <div>
+                  <h4 class="team-name">Rivanur R. Rafi</h4>
+                  <span class="team-degi">CEO, Events BD</span>
+                </div>
+                <div>
+                  <div class="team-social">
+                    <ul>
+                      <li>
+                        <a href="#"><i class="far fa-share-alt"></i></a>
+                        <ul>
+                          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <ul class="team-bottom">
+                <li>
+                  <a href="tel:+88 (099) 8764 321">
+                    <span><i class="fas fa-phone-alt"></i></span>+88 (099) 8764 321
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:info@example.com">
+                    <span><i class="fas fa-envelope"></i></span>info@example.com
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="team-style1">
+            <div class="team-img">
+              <img src="../../../public/assets/img/team/team-1-4.jpg" alt="team image">
+            </div>
+            <div class="team-body">
+              <div class="team-content">
+                <div>
+                  <h4 class="team-name">Rivanur R. Rafi</h4>
+                  <span class="team-degi">CEO, Events BD</span>
+                </div>
+                <div>
+                  <div class="team-social">
+                    <ul>
+                      <li>
+                        <a href="#"><i class="far fa-share-alt"></i></a>
+                        <ul>
+                          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <ul class="team-bottom">
+                <li>
+                  <a href="tel:+88 (099) 8764 321">
+                    <span><i class="fas fa-phone-alt"></i></span>+88 (099) 8764 321
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:info@example.com">
+                    <span><i class="fas fa-envelope"></i></span>info@example.com
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Team Area end -->
+  <!-- Upcoming Events -->
+  <section class="events smoke-bg space-top space-bottom">
+    <div class="container">
       <div class="row">
-        <div class="col-lg-6 mx-auto">
-          <div class="auth-style">
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-              <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Login</button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Register</button>
-              </li>
-            </ul>
-            <div class="auth-social">
-              <h5 class="auth-title">Log In Directly With</h5>
-              <div class="footer-social style3">
-                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.google.com/"><i class="fab fa-google"></i></a>
-                <a href="https://www.gmail.com/"><i class="fas fa-envelope"></i></a>
+        <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-10 mx-auto">
+          <div class="title-area text-center">
+            <span class="sec-subtitle2">Upcoming Events</span>
+            <h2 class="sec-title">Explore Our Next Upcoming Awesome Events</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row vs-carousel events-slide2 wow fadeInUp" data-slide-show="1" data-center-mode="true" data-xl-center-mode="true" data-ml-center-mode="true" data-lg-center-mode="true" data-md-center-mode="true" data-center-padding="370px" data-xl-center-padding="370px" data-ml-center-padding="300px" data-lg-center-padding="200px" data-md-center-padding="80px">
+        <div class="col-md-6 col-lg-4">
+          <div class="event-style2">
+            <div class="event-img">
+              <div class="overlay"></div>
+              <img class="img" src="../../../public/assets/img/events/e-2-1.jpg" alt="e 1 1">
+              <div class="event-date">
+                <span>20</span>
+                January
+              </div>
+              <h3 class="event-title"><a href="event-details.html">Happy New Year Reunion And Music Festival</a></h3>
+            </div>
+            <div class="event-content">
+              <div class="event-meta">
+                <ul>
+                  <li>
+                    <span><i class="fas fa-clock"></i>08:00am - 22:00pm</span>
+                  </li>
+                  <li>
+                    <span><i class="fas fa-map-marker-alt"></i>245x Town 1214 Street, US</span>
+                  </li>
+                </ul>
+              </div>
+              <h3 class="event-title h5"><a href="event-details.html">Happy New Year Reunion And Music Festival</a></h3>
+              <p class="event-text">Lorem ipsulm siteli amet, dogflor consectetur iscing elit. siteli ipsulm
+                am adipiscing elit.</p>
+              <div class="event-footer">
+                <a href="event-details.html" class="event-link">Tickets & Details</a>
+                <span class="event-price">Price: <span>$199</span></span>
               </div>
             </div>
-            <div class="tab-content" id="myTabContent">
-              <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-                <form class="auth-form">
-                  <label class="auth-label" for="mobile_code">Phone Number</label>
-                  <div class="form-group">
-                    <input id="phone1" type="tel" placeholder="+880">
-                  </div>
-                  <div class="d-flex">
-                    <a href="about.html" class="vs-btn w-100" tabindex="0">
-                      Log In
-                    </a>
-                  </div>
-                  <p class="auth-link">Not A Member? <a href="register.html">Register</a></p>
-                </form>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="event-style2">
+            <div class="event-img">
+              <div class="overlay"></div>
+              <img class="img" src="../../../public/assets/img/events/e-2-2.jpg" alt="e 1 1">
+              <div class="event-date">
+                <span>20</span>
+                January
               </div>
-              <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-                <form class="auth-form style2">
-                  <div class="form-group">
-                    <label class="auth-label" for="mobile_code">First Name</label>
-                    <div>
-                      <input type="text" placeholder="First Name" class="form-control">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="auth-label" for="mobile_code">Last Name</label>
-                    <div>
-                      <input type="text" placeholder="Last Name" class="form-control">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="auth-label" for="mobile_code">User Name</label>
-                    <div>
-                      <input type="text" placeholder="User Name" class="form-control">
-                    </div>
-                  </div>
-                  <div class="form-group last">
-                    <label class="auth-label" for="mobile_code">Phone Number</label>
-                    <div>
-                      <input id="phone2" type="tel" placeholder="+880">
-                    </div>
-                  </div>
-                  <div class="d-flex">
-                    <a href="about.html" class="vs-btn w-100" tabindex="0">
-                      Register
-                    </a>
-                  </div>
-                  <p class="auth-link">Already Registered? <a href="login.html">Login</a></p>
-                </form>
+              <h3 class="event-title"><a href="event-details.html">Happy New Year Reunion And Music Festival</a></h3>
+            </div>
+            <div class="event-content">
+              <div class="event-meta">
+                <ul>
+                  <li>
+                    <span><i class="fas fa-clock"></i>08:00am - 22:00pm</span>
+                  </li>
+                  <li>
+                    <span><i class="fas fa-map-marker-alt"></i>245x Town 1214 Street, US</span>
+                  </li>
+                </ul>
+              </div>
+              <h3 class="event-title h5"><a href="event-details.html">Happy New Year Reunion And Music Festival</a></h3>
+              <p class="event-text">Lorem ipsulm siteli amet, dogflor consectetur iscing elit. siteli ipsulm
+                am adipiscing elit.</p>
+              <div class="event-footer">
+                <a href="event-details.html" class="event-link">Tickets & Details</a>
+                <span class="event-price">Price: <span>$199</span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="event-style2">
+            <div class="event-img">
+              <div class="overlay"></div>
+              <img class="img" src="../../../public/assets/img/events/e-2-3.jpg" alt="e 1 1">
+              <div class="event-date">
+                <span>20</span>
+                January
+              </div>
+              <h3 class="event-title"><a href="event-details.html">Happy New Year Reunion And Music Festival</a></h3>
+            </div>
+            <div class="event-content">
+              <div class="event-meta">
+                <ul>
+                  <li>
+                    <span><i class="fas fa-clock"></i>08:00am - 22:00pm</span>
+                  </li>
+                  <li>
+                    <span><i class="fas fa-map-marker-alt"></i>245x Town 1214 Street, US</span>
+                  </li>
+                </ul>
+              </div>
+              <h3 class="event-title h5"><a href="event-details.html">Happy New Year Reunion And Music Festival</a></h3>
+              <p class="event-text">Lorem ipsulm siteli amet, dogflor consectetur iscing elit. siteli ipsulm
+                am adipiscing elit.</p>
+              <div class="event-footer">
+                <a href="event-details.html" class="event-link">Tickets & Details</a>
+                <span class="event-price">Price: <span>$199</span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="event-style2">
+            <div class="event-img">
+              <div class="overlay"></div>
+              <img class="img" src="../../../public/assets/img/events/e-2-1.jpg" alt="e 1 1">
+              <div class="event-date">
+                <span>20</span>
+                January
+              </div>
+              <h3 class="event-title"><a href="event-details.html">Happy New Year Reunion And Music Festival</a></h3>
+            </div>
+            <div class="event-content">
+              <div class="event-meta">
+                <ul>
+                  <li>
+                    <span><i class="fas fa-clock"></i>08:00am - 22:00pm</span>
+                  </li>
+                  <li>
+                    <span><i class="fas fa-map-marker-alt"></i>245x Town 1214 Street, US</span>
+                  </li>
+                </ul>
+              </div>
+              <h3 class="event-title h5"><a href="event-details.html">Happy New Year Reunion And Music Festival</a></h3>
+              <p class="event-text">Lorem ipsulm siteli amet, dogflor consectetur iscing elit. siteli ipsulm
+                am adipiscing elit.</p>
+              <div class="event-footer">
+                <a href="event-details.html" class="event-link">Tickets & Details</a>
+                <span class="event-price">Price: <span>$199</span></span>
               </div>
             </div>
           </div>
@@ -534,7 +947,202 @@
       </div>
     </div>
   </section>
-  <!-- Login Area End -->
+  <!-- Upcoming Events End -->
+  <!-- Counter Area Start -->
+  <div class="position-relative counter-area2">
+    <div class="counter-wrap1 rounded-0">
+      <div class="overlay rounded-0"></div>
+      <img class="shape-1" src="../../../public/assets/img/shapes/c-1-1.png" alt="shape1">
+      <img class="shape-2" src="../../../public/assets/img/shapes/c-1-2.png" alt="shape2">
+      <div class="container wow fadeInUp" data-wow-delay="0.2s">
+        <div class="row g-4 justify-content-between">
+          <div class="col-6 col-lg-auto">
+            <div class="counter-media count-start">
+              <div class="counter-media__icon"><img src="../../../public/assets/img/icons/c-1-1.svg" alt="icon"></div>
+              <div class="media-body">
+                <span class="counter-media__number"><span class="counters" data-counter="858">858</span>+</span>
+                <p class="counter-media__title">Successful Projects</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-auto">
+            <div class="counter-media count-start">
+              <div class="counter-media__icon"><img src="../../../public/assets/img/icons/c-1-2.svg" alt="icon"></div>
+              <div class="media-body">
+                <span class="counter-media__number"><span class="counters" data-counter="567">567</span>+</span>
+                <p class="counter-media__title">Media Activities</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-auto">
+            <div class="counter-media count-start">
+              <div class="counter-media__icon"><img src="../../../public/assets/img/icons/c-1-3.svg" alt="icon"></div>
+              <div class="media-body">
+                <span class="counter-media__number"><span class="counters" data-counter="15">15</span>+</span>
+                <p class="counter-media__title">Skilled Experts</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-auto">
+            <div class="counter-media count-start">
+              <div class="counter-media__icon"><img src="../../../public/assets/img/icons/c-1-4.svg" alt="icon"></div>
+              <div class="media-body">
+                <span class="counter-media__number"><span class="counters" data-counter="30">30</span>+</span>
+                <p class="counter-media__title">Happy Clients</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Counter Area End -->
+  <!-- Blog Area -->
+  <section class="space-top space-extra-bottom">
+    <div class="container">
+      <div class="row justify-content-between align-items-end">
+        <div class="col-lg-6">
+          <div class="title-area">
+            <span class="sec-subtitle2">Blog And News</span>
+            <h2 class="sec-title">Our Latest Blog And Latest News</h2>
+          </div>
+        </div>
+        <div class="col-auto">
+          <div class="blog-slide-btns title-area">
+            <button class="vs-btn" data-slick-prev="#blog-slider1">
+              <i class="far fa-arrow-left"></i>
+            </button>
+            <button class="vs-btn" data-slick-next="#blog-slider1">
+              <i class="far fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row vs-carousel" data-slide-show="3" data-md-slide-show="2" id="blog-slider1">
+        <div class="col-lg-4">
+          <div class="vs-blog blog-style2">
+            <div class="blog-img">
+              <a href="blog-details.html">
+                <img class="blog-img__item" src="../../../public/assets/img/blog/blog-8-1.jpg" alt="blog">
+                <img class="blog-img__item" src="../../../public/assets/img/blog/blog-8-1.jpg" alt="blog">
+              </a>
+              <span class="blog-date"><i class="fas fa-clock"></i>January 25, 2024</span>
+            </div>
+            <div class="blog-content">
+              <div class="blog-metas">
+                <ul>
+                  <li>
+                    <a class="blog-meta" href="blog-details.html">
+                      <i class="fas fa-user"></i> By Admin
+                    </a>
+                  </li>
+                  <li>
+                    <a class="blog-meta" href="blog-details.html">
+                      <i class="fas fa-comments"></i> (03) Comments
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <h3 class="blog-title h5"><a href="blog-details.html">Global Business Goal Make
+                  Life Easy From Tech</a></h3>
+              <a class="blog-link" href="blog-details.html">Read More<i class="far fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="vs-blog blog-style2">
+            <div class="blog-img">
+              <a href="blog-details.html">
+                <img class="blog-img__item" src="../../../public/assets/img/blog/blog-8-2.jpg" alt="blog">
+                <img class="blog-img__item" src="../../../public/assets/img/blog/blog-8-2.jpg" alt="blog">
+              </a>
+              <span class="blog-date"><i class="fas fa-clock"></i>January 25, 2024</span>
+            </div>
+            <div class="blog-content">
+              <div class="blog-metas">
+                <ul>
+                  <li>
+                    <a class="blog-meta" href="blog-details.html">
+                      <i class="fas fa-user"></i> By Admin
+                    </a>
+                  </li>
+                  <li>
+                    <a class="blog-meta" href="blog-details.html">
+                      <i class="fas fa-comments"></i> (03) Comments
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <h3 class="blog-title h5"><a href="blog-details.html">Advantage Enhancing Global Business
+                  Efficiency</a></h3>
+              <a class="blog-link" href="blog-details.html">Read More<i class="far fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="vs-blog blog-style2">
+            <div class="blog-img">
+              <a href="blog-details.html">
+                <img class="blog-img__item" src="../../../public/assets/img/blog/blog-8-3.jpg" alt="blog">
+                <img class="blog-img__item" src="../../../public/assets/img/blog/blog-8-3.jpg" alt="blog">
+              </a>
+              <span class="blog-date"><i class="fas fa-clock"></i>January 25, 2024</span>
+            </div>
+            <div class="blog-content">
+              <div class="blog-metas">
+                <ul>
+                  <li>
+                    <a class="blog-meta" href="blog-details.html">
+                      <i class="fas fa-user"></i> By Admin
+                    </a>
+                  </li>
+                  <li>
+                    <a class="blog-meta" href="blog-details.html">
+                      <i class="fas fa-comments"></i> (03) Comments
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <h3 class="blog-title h5"><a href="blog-details.html">Leveraging Technology for Global Business Ease</a>
+              </h3>
+              <a class="blog-link" href="blog-details.html">Read More<i class="far fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="vs-blog blog-style2">
+            <div class="blog-img">
+              <a href="blog-details.html">
+                <img class="blog-img__item" src="../../../public/assets/img/blog/blog-8-4.jpg" alt="blog">
+                <img class="blog-img__item" src="../../../public/assets/img/blog/blog-8-4.jpg" alt="blog">
+              </a>
+              <span class="blog-date"><i class="fas fa-clock"></i>January 25, 2024</span>
+            </div>
+            <div class="blog-content">
+              <div class="blog-metas">
+                <ul>
+                  <li>
+                    <a class="blog-meta" href="blog-details.html">
+                      <i class="fas fa-user"></i> By Admin
+                    </a>
+                  </li>
+                  <li>
+                    <a class="blog-meta" href="blog-details.html">
+                      <i class="fas fa-comments"></i> (03) Comments
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <h3 class="blog-title h5"><a href="blog-details.html">Leveraging Technology for Global Business Ease</a>
+              </h3>
+              <a class="blog-link" href="blog-details.html">Read More<i class="far fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Blog Area End -->
   <!-- Newsletter Area -->
   <div class="newsletter-layout1">
     <div class="overlay"></div>
@@ -620,7 +1228,7 @@
           </div>
           <div class="col-md-6 col-xl-auto">
             <div class="widget footer-widget">
-              <h3 class="widget_title">Our Instagram<img src="assets/img/shapes/d-1-1.svg"></h3>
+              <h3 class="widget_title">Our Instagram<img src="../../../public/assets/img/shapes/d-1-1.svg"></h3>
               <div class="sidebar-gallery">
                 <div class="gallery-thumb">
                   <img src="../../../public/assets/img/widget/gal-1-1.jpg" alt="Gallery Image" class="w-100">

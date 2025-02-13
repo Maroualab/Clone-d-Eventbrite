@@ -12,7 +12,6 @@
   <!-- Mobile Specific Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Favicons - Place favicon.ico in the root directory -->
-  <link rel="apple-touch-icon" sizes="57x57" href="../../../public/assets/img/favicons/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="../../../public/assets/img/favicons/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="../../../public/assets/img/favicons/apple-icon-72x72.png">
   <link rel="apple-touch-icon" sizes="76x76" href="../../../public/assets/img/favicons/apple-icon-76x76.png">
@@ -38,7 +37,7 @@
 	    All CSS File
 	============================== -->
   <!-- Bootstrap -->
-  <!-- <link rel="stylesheet" href="assets/css/app.min.css"> -->
+  <!-- <link rel="stylesheet" href="../../../public/assets/css/app.min.css"> -->
   <link rel="stylesheet" href="../../../public/assets/css/bootstrap.min.css">
   <!-- Fontawesome Icon -->
   <link rel="stylesheet" href="../../../public/assets/css/fontawesome.min.css">
@@ -80,6 +79,14 @@
       </div>
       <div class="vs-mobile-menu">
         <ul>
+          <li class="menu-item-has-children">
+            <a href="index.html">Home</a>
+            <ul class="sub-menu">
+              <li><a href="index.html">Home 1</a></li>
+              <li><a href="index-2.html">Home 2</a></li>
+              <li><a href="index-3.html">Home 3</a></li>
+            </ul>
+          </li>
           <li>
             <a href="about.html">About Us</a>
           </li>
@@ -216,7 +223,7 @@
           </div>
           <div class="recent-post">
             <div class="media-img">
-              <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
+              <a href="blog-details.html"><img src="../../../public/assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
             </div>
             <div class="media-body">
               <h4 class="post-title">
@@ -282,7 +289,7 @@
           <div class="row gx-50 justify-content-between align-items-center gx-sm-0">
             <div class="col">
               <div class="header-logo">
-                <a href="index.html"><img src="assets/img/logo.svg" alt="Eventino" class="logo" width="135" height="60px"></a>
+                <a href="index.html"><img src="../../../public/assets/img/logo.svg" alt="Eventino" class="logo" width="135" height="60px"></a>
               </div>
             </div>
             <div class="col-auto header-info d-none d-lg-flex pe-0">
@@ -445,96 +452,78 @@
     <img src="../../../public/assets/img/shapes/b-1-1.png" alt="shape" class="shape">
     <div class="container z-index-common">
       <div class="breadcumb-content">
-        <h1 class="breadcumb-title">Login</h1>
+        <h1 class="breadcumb-title">Service Details</h1>
         <div class="breadcumb-menu-wrap">
           <ul class="breadcumb-menu">
             <li><a href="index.html">Home</a></li>
-            <li>Pages</li>
-            <li>Login</li>
+            <li><a href="service.html">Service</a></li>
+            <li>Service Details</li>
           </ul>
         </div>
       </div>
     </div>
   </div>
-  <!-- Service Area -->
-  <!-- Login Area -->
-  <section class="space-top space-extra-bottom">
+  <!-- Service Details -->
+  <div class="space-top space-extra-bottom">
     <div class="container">
+      <h1 class="sec-title">Birthday Party</h1>
+      <p>Odio ut sem nulla pharetra diam sit. Mauris sit amet massa vitae. Cursus risus at ultrices mi. Nam libero justo
+        laoreet sit amet cursus. Felis bibendum ut tristique et egestas. Donec massa sapien faucibus et molestie ac.
+        Turpis tincidunt id aliquet risus feugiat in. Eget sit amet tellus cras. Egestas purus viverra accumsan in nisl
+        nisi scelerisque. Mauris a diam maecenas sed. Porta lorem mollis aliquam ut porttitor leo a diam sollicitudin.</p>
+      <img class="service-details-img2 mb-30" src="../../../public/assets/img/services/service-details-1-1.jpg" alt="Service Details">
+      <p>Hendrerit dolor magna eget est lorem ipsum. Dui accumsan sit amet nulla facilisi morbi. Nulla facilisi morbi
+        tempus iaculis urna id. Sit amet risus nullam eget felis eget nunc. Urna nunc id cursus metus. Tincidunt arcu non
+        sodales neque sodales ut etiam sit. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Ut
+        faucibus pulvinar elementum integer enim neque volutpat ac. Ut lectus arcu bibendum at varius vel pharetra vel
+        turpis. Nullam ac tortor vitae purus faucibus ornare suspendisse. Sit amet nisl purus in mollis nunc sed id. Nunc
+        sed augue lacus viverra vitae congue eu consequat ac. Scelerisque felis imperdiet proin fermentum leo vel orci
+        porta non. Et ultrices neque ornare aenean euismod elementum nisi. Enim ut sem viverra aliquet eget sit. Mi in
+        nulla posuere sollicitudin aliquam ultrices. Ornare aenean euismod elementum nisi quis eleifend quam. Et malesuada
+        fames ac turpis egestas sed tempus.</p>
+      <p>Commodo viverra maecenas accumsan lacus vel facilisis volutpat est. Nulla aliquet enim tortor at auctor. Amet
+        aliquam id diam maecenas ultricies mi eget. Vestibulum lorem sed risus ultricies tristique. Tellus integer feugiat
+        scelerisque varius morbi enim nunc. Scelerisque eu ultrices vitae auctor eu augue ut. Velit scelerisque in dictum
+        non consectetur a erat nam. Pharetra diam sit amet nisl suscipit. Vel orci porta non pulvinar neque laoreet
+        suspendisse interdum. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget.</p>
+      <h1>Birthday Party</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ultricies tristique nulla aliquet enim. Sit amet consectetur adipiscin elit duis. Volutpat maecenas
+        volutpat blandit aliquam. Eu non diam phasellus vestibulum lorem sed. Urna nec tincidunt praesent semper feugiat
+        nibh sed pulvinar proin. Massa placerat duis ultricies lacus sed. Sit amet facilisis magna etiam tempor orci eu
+        lobortis. Neque sodales ut etiam sit. Diam sollicitudin tempor id eu. Lacinia quis vel eros donec ac. Pharetra et
+        ultrices neque ornare.</p>
+      <div class="list-style3">
+        <ul>
+          <li><i class="fal fa-check-circle"></i> Non consectetur a erat nam at lectus urna</li>
+          <li><i class="fal fa-check-circle"></i> Odio aenean sed adipiscing diam donec adipiscing.</li>
+          <li><i class="fal fa-check-circle"></i> Odio aenean sed adipiscing diam donec adipiscing.</li>
+          <li><i class="fal fa-check-circle"></i> Odio aenean sed adipiscing diam donec adipiscing.</li>
+          <li><i class="fal fa-check-circle"></i> Non consectetur a erat nam at lectus urna</li>
+          <li><i class="fal fa-check-circle"></i> Odio aenean sed adipiscing diam donec adipiscing.</li>
+          <li><i class="fal fa-check-circle"></i> Odio aenean sed adipiscing diam donec adipiscing.</li>
+          <li><i class="fal fa-check-circle"></i> Odio aenean sed adipiscing diam donec adipiscing.</li>
+        </ul>
+      </div>
       <div class="row">
-        <div class="col-lg-6 mx-auto">
-          <div class="auth-style">
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-              <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Login</button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Register</button>
-              </li>
-            </ul>
-            <div class="auth-social">
-              <h5 class="auth-title">Log In Directly With</h5>
-              <div class="footer-social style3">
-                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.google.com/"><i class="fab fa-google"></i></a>
-                <a href="https://www.gmail.com/"><i class="fas fa-envelope"></i></a>
-              </div>
-            </div>
-            <div class="tab-content" id="myTabContent">
-              <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-                <form class="auth-form">
-                  <label class="auth-label" for="mobile_code">Phone Number</label>
-                  <div class="form-group">
-                    <input id="phone1" type="tel" placeholder="+880">
-                  </div>
-                  <div class="d-flex">
-                    <a href="about.html" class="vs-btn w-100" tabindex="0">
-                      Log In
-                    </a>
-                  </div>
-                  <p class="auth-link">Not A Member? <a href="register.html">Register</a></p>
-                </form>
-              </div>
-              <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-                <form class="auth-form style2">
-                  <div class="form-group">
-                    <label class="auth-label" for="mobile_code">First Name</label>
-                    <div>
-                      <input type="text" placeholder="First Name" class="form-control">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="auth-label" for="mobile_code">Last Name</label>
-                    <div>
-                      <input type="text" placeholder="Last Name" class="form-control">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="auth-label" for="mobile_code">User Name</label>
-                    <div>
-                      <input type="text" placeholder="User Name" class="form-control">
-                    </div>
-                  </div>
-                  <div class="form-group last">
-                    <label class="auth-label" for="mobile_code">Phone Number</label>
-                    <div>
-                      <input id="phone2" type="tel" placeholder="+880">
-                    </div>
-                  </div>
-                  <div class="d-flex">
-                    <a href="about.html" class="vs-btn w-100" tabindex="0">
-                      Register
-                    </a>
-                  </div>
-                  <p class="auth-link">Already Registered? <a href="login.html">Login</a></p>
-                </form>
-              </div>
-            </div>
-          </div>
+        <div class="col-md-4 mb-30">
+          <img class="service-details-img" src="../../../public/assets/img/services/service-details-1-2.jpg" alt="service-details">
+        </div>
+        <div class="col-md-4 mb-30">
+          <img class="service-details-img" src="../../../public/assets/img/services/service-details-1-3.jpg" alt="service-details">
+        </div>
+        <div class="col-md-4 mb-30">
+          <img class="service-details-img" src="../../../public/assets/img/services/service-details-1-4.jpg" alt="service-details">
         </div>
       </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ultricies tristique nulla aliquet enim. Sit amet consectetur adipiscin elit duis. Volutpat maecenas
+        volutpat blandit aliquam. Eu non diam phasellus vestibulum lorem sed. Urna nec tincidunt praesent semper feugiat
+        nibh sed pulvinar proin. Massa placerat duis ultricies lacus sed. Sit amet facilisis magna etiam tempor orci eu
+        lobortis. Neque sodales ut etiam sit. Diam sollicitudin tempor id eu. </p>
     </div>
-  </section>
-  <!-- Login Area End -->
+  </div>
+  <!-- Service Details End -->
   <!-- Newsletter Area -->
   <div class="newsletter-layout1">
     <div class="overlay"></div>
@@ -620,7 +609,7 @@
           </div>
           <div class="col-md-6 col-xl-auto">
             <div class="widget footer-widget">
-              <h3 class="widget_title">Our Instagram<img src="assets/img/shapes/d-1-1.svg"></h3>
+              <h3 class="widget_title">Our Instagram<img src="../../../public/assets/img/shapes/d-1-1.svg"></h3>
               <div class="sidebar-gallery">
                 <div class="gallery-thumb">
                   <img src="../../../public/assets/img/widget/gal-1-1.jpg" alt="Gallery Image" class="w-100">

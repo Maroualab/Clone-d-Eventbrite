@@ -38,7 +38,7 @@
 	    All CSS File
 	============================== -->
   <!-- Bootstrap -->
-  <!-- <link rel="stylesheet" href="assets/css/app.min.css"> -->
+  <!-- <link rel="stylesheet" href="../../../public/assets/css/app.min.css"> -->
   <link rel="stylesheet" href="../../../public/assets/css/bootstrap.min.css">
   <!-- Fontawesome Icon -->
   <link rel="stylesheet" href="../../../public/assets/css/fontawesome.min.css">
@@ -80,6 +80,14 @@
       </div>
       <div class="vs-mobile-menu">
         <ul>
+          <li class="menu-item-has-children">
+            <a href="index.html">Home</a>
+            <ul class="sub-menu">
+              <li><a href="index.html">Home 1</a></li>
+              <li><a href="index-2.html">Home 2</a></li>
+              <li><a href="index-3.html">Home 3</a></li>
+            </ul>
+          </li>
           <li>
             <a href="about.html">About Us</a>
           </li>
@@ -216,7 +224,7 @@
           </div>
           <div class="recent-post">
             <div class="media-img">
-              <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
+              <a href="blog-details.html"><img src="../../../public/assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
             </div>
             <div class="media-body">
               <h4 class="post-title">
@@ -282,7 +290,7 @@
           <div class="row gx-50 justify-content-between align-items-center gx-sm-0">
             <div class="col">
               <div class="header-logo">
-                <a href="index.html"><img src="assets/img/logo.svg" alt="Eventino" class="logo" width="135" height="60px"></a>
+                <a href="index.html"><img src="../../../public/assets/img/logo.svg" alt="Eventino" class="logo" width="135" height="60px"></a>
               </div>
             </div>
             <div class="col-auto header-info d-none d-lg-flex pe-0">
@@ -445,88 +453,288 @@
     <img src="../../../public/assets/img/shapes/b-1-1.png" alt="shape" class="shape">
     <div class="container z-index-common">
       <div class="breadcumb-content">
-        <h1 class="breadcumb-title">Login</h1>
+        <h1 class="breadcumb-title">Event Plan</h1>
         <div class="breadcumb-menu-wrap">
           <ul class="breadcumb-menu">
             <li><a href="index.html">Home</a></li>
             <li>Pages</li>
-            <li>Login</li>
+            <li>Event Plan</li>
           </ul>
         </div>
       </div>
     </div>
   </div>
-  <!-- Service Area -->
-  <!-- Login Area -->
-  <section class="space-top space-extra-bottom">
+  <!-- Pricing Plan -->
+  <div class="space-top space-extra-bottom">
+    <div class="container">
+      <div class="row vs-carousel" data-slide-show="3" data-lg-slide-show="3" data-md-slide-show="2" data-sm-slide-show="1">
+        <div class="col-lg-4 col-md-6">
+          <div class="price-block--style1">
+            <div class="price-block__header" data-bg-src="../../../public/assets/img/plan/plan-1-1.jpg">
+              <div class="overlay"></div>
+              <h3 class="price-block__title">Basic Plan</h3>
+              <span class="price-block__price"><sup>$</sup>49<sup>.99</sup></span>
+            </div>
+            <div class="price-block__body">
+              <span class="price-block__time"><i class="fas fa-clock"></i>45 min</span>
+              <ul class="price-block__list">
+                <li class="active"><i class="fas fa-check-circle"></i>Event Planning & Consultation</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Venue Booking Assistance</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Basic Event Décor</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Event Day Coordination</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Vendor Referrals</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Guest List Management</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Timeline Creation</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Budget Planning</li>
+                <li class="active"><i class="fas fa-check-circle"></i>RSVP Tracking</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Basic Sound System Setup</li>
+                <li><i class="fas fa-check-circle"></i>On-site Staff Coordination</li>
+                <li><i class="fas fa-check-circle"></i>Emergency Backup Plans</li>
+                <li><i class="fas fa-check-circle"></i>Post-Event Follow-up</li>
+                <li><i class="fas fa-check-circle"></i>Online Invitation Management</li>
+                <li><i class="fas fa-check-circle"></i>Standard Catering Options</li>
+              </ul>
+              <a class="vs-btn" href="event-booking.html">Event Booking</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="price-block--style1">
+            <div class="price-block__header" data-bg-src="../../../public/assets/img/plan/plan-1-2.jpg">
+              <div class="overlay"></div>
+              <h3 class="price-block__title">Advanced Plan</h3>
+              <span class="price-block__price"><sup>$</sup>99<sup>.99</sup></span>
+            </div>
+            <div class="price-block__body">
+              <span class="price-block__time"><i class="fas fa-clock"></i>60 min</span>
+              <ul class="price-block__list">
+                <li class="active"><i class="fas fa-check-circle"></i>Comprehensive Event Consultation</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Customized Venue Selection</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Advanced Event Décor</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Personalized Event Timeline</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Premium Vendor Coordination</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Exclusive Catering Options</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Full Day Event Coordination</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Live Entertainment Booking</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Photography & Videography</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Event Security Management</li>
+                <li><i class="fas fa-check-circle"></i>Luxury Transportation</li>
+                <li><i class="fas fa-check-circle"></i>On-site Logistics Team</li>
+                <li><i class="fas fa-check-circle"></i>Exclusive Invitations & Stationery</li>
+                <li><i class="fas fa-check-circle"></i>VIP Guest Management</li>
+                <li><i class="fas fa-check-circle"></i>Post-Event Debrief & Analysis</li>
+              </ul>
+              <a class="vs-btn" href="event-booking.html">Event Booking</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="price-block--style1">
+            <div class="price-block__header" data-bg-src="../../../public/assets/img/plan/plan-1-3.jpg">
+              <div class="overlay"></div>
+              <h3 class="price-block__title">Premium Plan</h3>
+              <span class="price-block__price"><sup>$</sup>149<sup>.99</sup></span>
+            </div>
+            <div class="price-block__body">
+              <span class="price-block__time"><i class="fas fa-clock"></i>2 hour</span>
+              <ul class="price-block__list">
+                <li class="active"><i class="fas fa-check-circle"></i>Event Planning & Execution</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Luxury Venue Selection</li>
+                <li class="active"><i class="fas fa-check-circle"></i>High-End Event Décor & Design</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Bespoke Event Itinerary</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Exclusive Vendor Partnerships</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Gourmet Catering Services</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Comprehensive Event Coordination</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Top-Tier Entertainment Booking</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Photography & Videography</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Private Security & VIP Handling</li>
+                <li><i class="fas fa-check-circle"></i>Customized Transportation Solutions</li>
+                <li><i class="fas fa-check-circle"></i>Personalized Event Keepsakes</li>
+                <li><i class="fas fa-check-circle"></i>Exclusive Guest Concierge Services</li>
+                <li><i class="fas fa-check-circle"></i>Post-Event VIP Experiences</li>
+                <li><i class="fas fa-check-circle"></i>Event Success Metrics & Reporting</li>
+              </ul>
+              <a class="vs-btn" href="event-booking.html">Event Booking</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="price-block--style1">
+            <div class="price-block__header" data-bg-src="../../../public/assets/img/plan/plan-1-4.jpg">
+              <div class="overlay"></div>
+              <h3 class="price-block__title">Customized Plan</h3>
+              <span class="price-block__price">Call Support</span>
+            </div>
+            <div class="price-block__body">
+              <span class="price-block__time"><i class="fas fa-clock"></i>Unlimited</span>
+              <ul class="price-block__list">
+                <li class="active"><i class="fas fa-check-circle"></i>Event Planning & Execution</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Luxury Venue Selection</li>
+                <li class="active"><i class="fas fa-check-circle"></i>High-End Event Décor & Design</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Bespoke Event Itinerary</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Exclusive Vendor Partnerships</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Gourmet Catering Services</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Comprehensive Event Coordination</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Top-Tier Entertainment Booking</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Photography & Videography</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Private Security & VIP Handling</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Customized Transportation Solutions</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Personalized Event Keepsakes</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Exclusive Guest Concierge Services</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Post-Event VIP Experiences</li>
+                <li class="active"><i class="fas fa-check-circle"></i>Event Success Metrics & Reporting</li>
+              </ul>
+              <a class="vs-btn" href="event-booking.html">Event Booking</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Pricing Plan End -->
+  <!-- Related Events -->
+  <section class="space-extra-bottom">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 mx-auto">
-          <div class="auth-style">
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-              <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Login</button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Register</button>
-              </li>
-            </ul>
-            <div class="auth-social">
-              <h5 class="auth-title">Log In Directly With</h5>
-              <div class="footer-social style3">
-                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.google.com/"><i class="fab fa-google"></i></a>
-                <a href="https://www.gmail.com/"><i class="fas fa-envelope"></i></a>
+        <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-10 mx-auto">
+          <div class="title-area text-center">
+            <span class="sec-subtitle2">Related Events</span>
+            <h2 class="sec-title">Explore & Booking Our Upcoming Events</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row vs-carousel" data-slide-show="3" data-lg-slide-show="3" data-md-slide-show="2" data-sm-slide-show="1">
+        <div class="col-md-6 col-lg-4">
+          <div class="event-style1">
+            <div class="event-img">
+              <img src="../../../public/assets/img/events/e-1-1.jpg" alt="e 1 1">
+              <div class="event-tags">
+                <a href="event-details.html">Business</a>
+              </div>
+              <div class="event-date">
+                <span>20</span>
+                January
               </div>
             </div>
-            <div class="tab-content" id="myTabContent">
-              <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-                <form class="auth-form">
-                  <label class="auth-label" for="mobile_code">Phone Number</label>
-                  <div class="form-group">
-                    <input id="phone1" type="tel" placeholder="+880">
-                  </div>
-                  <div class="d-flex">
-                    <a href="about.html" class="vs-btn w-100" tabindex="0">
-                      Log In
-                    </a>
-                  </div>
-                  <p class="auth-link">Not A Member? <a href="register.html">Register</a></p>
-                </form>
+            <div class="event-content">
+              <div class="event-meta">
+                <ul>
+                  <li>
+                    <span><i class="fas fa-clock"></i>08:00am - 22:00pm</span>
+                  </li>
+                  <li>
+                    <span><i class="fas fa-map-marker-alt"></i>245x Town 1214 Street, US</span>
+                  </li>
+                </ul>
               </div>
-              <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-                <form class="auth-form style2">
-                  <div class="form-group">
-                    <label class="auth-label" for="mobile_code">First Name</label>
-                    <div>
-                      <input type="text" placeholder="First Name" class="form-control">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="auth-label" for="mobile_code">Last Name</label>
-                    <div>
-                      <input type="text" placeholder="Last Name" class="form-control">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="auth-label" for="mobile_code">User Name</label>
-                    <div>
-                      <input type="text" placeholder="User Name" class="form-control">
-                    </div>
-                  </div>
-                  <div class="form-group last">
-                    <label class="auth-label" for="mobile_code">Phone Number</label>
-                    <div>
-                      <input id="phone2" type="tel" placeholder="+880">
-                    </div>
-                  </div>
-                  <div class="d-flex">
-                    <a href="about.html" class="vs-btn w-100" tabindex="0">
-                      Register
-                    </a>
-                  </div>
-                  <p class="auth-link">Already Registered? <a href="login.html">Login</a></p>
-                </form>
+              <h3 class="event-title h5"><a href="event-details.html">Ring in the New Year A Reunion and Music!</a></h3>
+              <p class="event-text">Lorem ipsulm siteli amet, dogflor consectetur iscing elit. siteli ipsulm
+                am adipiscing elit.</p>
+              <div class="event-footer">
+                <a href="event-details.html" class="event-link">Tickets &amp; Details</a>
+                <span class="event-price">Price: <span>$199</span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="event-style1">
+            <div class="event-img">
+              <img src="../../../public/assets/img/events/e-1-2.jpg" alt="e 1 1">
+              <div class="event-tags">
+                <a href="event-details.html">Art</a>
+              </div>
+              <div class="event-date">
+                <span>24</span>
+                January
+              </div>
+            </div>
+            <div class="event-content">
+              <div class="event-meta">
+                <ul>
+                  <li>
+                    <span><i class="fas fa-clock"></i>08:00am - 22:00pm</span>
+                  </li>
+                  <li>
+                    <span><i class="fas fa-map-marker-alt"></i>245x Town 1214 Street, US</span>
+                  </li>
+                </ul>
+              </div>
+              <h3 class="event-title h5"><a href="event-details.html">New Year’s Eve Reunion Celebrate with Music and
+                  Friends</a></h3>
+              <p class="event-text">Lorem ipsulm siteli amet, dogflor consectetur iscing elit. siteli ipsulm
+                am adipiscing elit.</p>
+              <div class="event-footer">
+                <a href="event-details.html" class="event-link">Tickets &amp; Details</a>
+                <span class="event-price">Price: <span>$150</span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="event-style1">
+            <div class="event-img">
+              <img src="../../../public/assets/img/events/e-1-3.jpg" alt="e 1 1">
+              <div class="event-tags">
+                <a href="event-details.html">Education</a>
+              </div>
+              <div class="event-date">
+                <span>25</span>
+                March
+              </div>
+            </div>
+            <div class="event-content">
+              <div class="event-meta">
+                <ul>
+                  <li>
+                    <span><i class="fas fa-clock"></i>08:00am - 22:00pm</span>
+                  </li>
+                  <li>
+                    <span><i class="fas fa-map-marker-alt"></i>245x Town 1214 Street, US</span>
+                  </li>
+                </ul>
+              </div>
+              <h3 class="event-title h5"><a href="event-details.html">2024 Reunion Music, Memories, and New Year’s
+                  Celebrations</a></h3>
+              <p class="event-text">Lorem ipsulm siteli amet, dogflor consectetur iscing elit. siteli ipsulm
+                am adipiscing elit.</p>
+              <div class="event-footer">
+                <a href="event-details.html" class="event-link">Tickets &amp; Details</a>
+                <span class="event-price">Price: <span>$199</span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="event-style1">
+            <div class="event-img">
+              <img src="../../../public/assets/img/events/e-1-6.jpg" alt="e 1 1">
+              <div class="event-tags">
+                <a href="event-details.html">Festival</a>
+              </div>
+              <div class="event-date">
+                <span>10</span>
+                January
+              </div>
+            </div>
+            <div class="event-content">
+              <div class="event-meta">
+                <ul>
+                  <li>
+                    <span><i class="fas fa-clock"></i>08:00am - 22:00pm</span>
+                  </li>
+                  <li>
+                    <span><i class="fas fa-map-marker-alt"></i>245x Town 1214 Street, US</span>
+                  </li>
+                </ul>
+              </div>
+              <h3 class="event-title h5"><a href="event-details.html">Dance into the New Year Reunion and Music
+                  Festival</a></h3>
+              <p class="event-text">Lorem ipsulm siteli amet, dogflor consectetur iscing elit. siteli ipsulm
+                am adipiscing elit.</p>
+              <div class="event-footer">
+                <a href="event-details.html" class="event-link">Tickets &amp; Details</a>
+                <span class="event-price">Price: <span>$199</span></span>
               </div>
             </div>
           </div>
@@ -534,7 +742,7 @@
       </div>
     </div>
   </section>
-  <!-- Login Area End -->
+  <!-- Related Events End -->
   <!-- Newsletter Area -->
   <div class="newsletter-layout1">
     <div class="overlay"></div>
@@ -620,7 +828,7 @@
           </div>
           <div class="col-md-6 col-xl-auto">
             <div class="widget footer-widget">
-              <h3 class="widget_title">Our Instagram<img src="assets/img/shapes/d-1-1.svg"></h3>
+              <h3 class="widget_title">Our Instagram<img src="../../../public/assets/img/shapes/d-1-1.svg"></h3>
               <div class="sidebar-gallery">
                 <div class="gallery-thumb">
                   <img src="../../../public/assets/img/widget/gal-1-1.jpg" alt="Gallery Image" class="w-100">

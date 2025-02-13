@@ -38,7 +38,7 @@
 	    All CSS File
 	============================== -->
   <!-- Bootstrap -->
-  <!-- <link rel="stylesheet" href="assets/css/app.min.css"> -->
+  <!-- <link rel="stylesheet" href="../../../public/assets/css/app.min.css"> -->
   <link rel="stylesheet" href="../../../public/assets/css/bootstrap.min.css">
   <!-- Fontawesome Icon -->
   <link rel="stylesheet" href="../../../public/assets/css/fontawesome.min.css">
@@ -80,6 +80,14 @@
       </div>
       <div class="vs-mobile-menu">
         <ul>
+          <li class="menu-item-has-children">
+            <a href="index.html">Home</a>
+            <ul class="sub-menu">
+              <li><a href="index.html">Home 1</a></li>
+              <li><a href="index-2.html">Home 2</a></li>
+              <li><a href="index-3.html">Home 3</a></li>
+            </ul>
+          </li>
           <li>
             <a href="about.html">About Us</a>
           </li>
@@ -216,7 +224,7 @@
           </div>
           <div class="recent-post">
             <div class="media-img">
-              <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
+              <a href="blog-details.html"><img src="../../../public/assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
             </div>
             <div class="media-body">
               <h4 class="post-title">
@@ -282,7 +290,7 @@
           <div class="row gx-50 justify-content-between align-items-center gx-sm-0">
             <div class="col">
               <div class="header-logo">
-                <a href="index.html"><img src="assets/img/logo.svg" alt="Eventino" class="logo" width="135" height="60px"></a>
+                <a href="index.html"><img src="../../../public/assets/img/logo.svg" alt="Eventino" class="logo" width="135" height="60px"></a>
               </div>
             </div>
             <div class="col-auto header-info d-none d-lg-flex pe-0">
@@ -445,96 +453,277 @@
     <img src="../../../public/assets/img/shapes/b-1-1.png" alt="shape" class="shape">
     <div class="container z-index-common">
       <div class="breadcumb-content">
-        <h1 class="breadcumb-title">Login</h1>
+        <h1 class="breadcumb-title">Team Members</h1>
         <div class="breadcumb-menu-wrap">
           <ul class="breadcumb-menu">
             <li><a href="index.html">Home</a></li>
             <li>Pages</li>
-            <li>Login</li>
+            <li>Team Members</li>
           </ul>
         </div>
       </div>
     </div>
   </div>
-  <!-- Service Area -->
-  <!-- Login Area -->
-  <section class="space-top space-extra-bottom">
+  <!-- Team -->
+  <div class="space space-extra-bottom">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 mx-auto">
-          <div class="auth-style">
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-              <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Login</button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Register</button>
-              </li>
-            </ul>
-            <div class="auth-social">
-              <h5 class="auth-title">Log In Directly With</h5>
-              <div class="footer-social style3">
-                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.google.com/"><i class="fab fa-google"></i></a>
-                <a href="https://www.gmail.com/"><i class="fas fa-envelope"></i></a>
-              </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="team-style1">
+            <div class="team-img">
+              <img src="../../../public/assets/img/team/team-1-1.jpg" alt="team image">
             </div>
-            <div class="tab-content" id="myTabContent">
-              <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-                <form class="auth-form">
-                  <label class="auth-label" for="mobile_code">Phone Number</label>
-                  <div class="form-group">
-                    <input id="phone1" type="tel" placeholder="+880">
+            <div class="team-body">
+              <div class="team-content">
+                <div>
+                  <h4 class="team-name">Daniel Matthew</h4>
+                  <span class="team-degi">CEO, Events BD</span>
+                </div>
+                <div>
+                  <div class="team-social">
+                    <ul>
+                      <li>
+                        <a href="#"><i class="far fa-share-alt"></i></a>
+                        <ul>
+                          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                      </li>
+                    </ul>
                   </div>
-                  <div class="d-flex">
-                    <a href="about.html" class="vs-btn w-100" tabindex="0">
-                      Log In
-                    </a>
-                  </div>
-                  <p class="auth-link">Not A Member? <a href="register.html">Register</a></p>
-                </form>
+                </div>
               </div>
-              <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-                <form class="auth-form style2">
-                  <div class="form-group">
-                    <label class="auth-label" for="mobile_code">First Name</label>
-                    <div>
-                      <input type="text" placeholder="First Name" class="form-control">
-                    </div>
+              <ul class="team-bottom">
+                <li>
+                  <a href="tel:+88 (099) 8764 321">
+                    <span><i class="fas fa-phone-alt"></i></span>+88 (099) 8764 321
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:info@example.com">
+                    <span><i class="fas fa-envelope"></i></span>info@example.com
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="team-style1">
+            <div class="team-img">
+              <img src="../../../public/assets/img/team/team-1-2.jpg" alt="team image">
+            </div>
+            <div class="team-body">
+              <div class="team-content">
+                <div>
+                  <h4 class="team-name">Maverick july</h4>
+                  <span class="team-degi">CEO, Events BD</span>
+                </div>
+                <div>
+                  <div class="team-social">
+                    <ul>
+                      <li>
+                        <a href="#"><i class="far fa-share-alt"></i></a>
+                        <ul>
+                          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                      </li>
+                    </ul>
                   </div>
-                  <div class="form-group">
-                    <label class="auth-label" for="mobile_code">Last Name</label>
-                    <div>
-                      <input type="text" placeholder="Last Name" class="form-control">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="auth-label" for="mobile_code">User Name</label>
-                    <div>
-                      <input type="text" placeholder="User Name" class="form-control">
-                    </div>
-                  </div>
-                  <div class="form-group last">
-                    <label class="auth-label" for="mobile_code">Phone Number</label>
-                    <div>
-                      <input id="phone2" type="tel" placeholder="+880">
-                    </div>
-                  </div>
-                  <div class="d-flex">
-                    <a href="about.html" class="vs-btn w-100" tabindex="0">
-                      Register
-                    </a>
-                  </div>
-                  <p class="auth-link">Already Registered? <a href="login.html">Login</a></p>
-                </form>
+                </div>
               </div>
+              <ul class="team-bottom">
+                <li>
+                  <a href="tel:+88 (099) 8764 321">
+                    <span><i class="fas fa-phone-alt"></i></span>+88 (099) 8764 321
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:info@example.com">
+                    <span><i class="fas fa-envelope"></i></span>info@example.com
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="team-style1">
+            <div class="team-img">
+              <img src="../../../public/assets/img/team/team-1-3.jpg" alt="team image">
+            </div>
+            <div class="team-body">
+              <div class="team-content">
+                <div>
+                  <h4 class="team-name">Alexander jon</h4>
+                  <span class="team-degi">CEO, Events BD</span>
+                </div>
+                <div>
+                  <div class="team-social">
+                    <ul>
+                      <li>
+                        <a href="#"><i class="far fa-share-alt"></i></a>
+                        <ul>
+                          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <ul class="team-bottom">
+                <li>
+                  <a href="tel:+88 (099) 8764 321">
+                    <span><i class="fas fa-phone-alt"></i></span>+88 (099) 8764 321
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:info@example.com">
+                    <span><i class="fas fa-envelope"></i></span>info@example.com
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="team-style1">
+            <div class="team-img">
+              <img src="../../../public/assets/img/team/team-1-4.jpg" alt="team image">
+            </div>
+            <div class="team-body">
+              <div class="team-content">
+                <div>
+                  <h4 class="team-name">Rivanur R. Rafi</h4>
+                  <span class="team-degi">CEO, Events BD</span>
+                </div>
+                <div>
+                  <div class="team-social">
+                    <ul>
+                      <li>
+                        <a href="#"><i class="far fa-share-alt"></i></a>
+                        <ul>
+                          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <ul class="team-bottom">
+                <li>
+                  <a href="tel:+88 (099) 8764 321">
+                    <span><i class="fas fa-phone-alt"></i></span>+88 (099) 8764 321
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:info@example.com">
+                    <span><i class="fas fa-envelope"></i></span>info@example.com
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="team-style1">
+            <div class="team-img">
+              <img src="../../../public/assets/img/team/team-1-5.jpg" alt="team image">
+            </div>
+            <div class="team-body">
+              <div class="team-content">
+                <div>
+                  <h4 class="team-name">Malihona Elma</h4>
+                  <span class="team-degi">CEO, Events BD</span>
+                </div>
+                <div>
+                  <div class="team-social">
+                    <ul>
+                      <li>
+                        <a href="#"><i class="far fa-share-alt"></i></a>
+                        <ul>
+                          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <ul class="team-bottom">
+                <li>
+                  <a href="tel:+88 (099) 8764 321">
+                    <span><i class="fas fa-phone-alt"></i></span>+88 (099) 8764 321
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:info@example.com">
+                    <span><i class="fas fa-envelope"></i></span>info@example.com
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="team-style1">
+            <div class="team-img">
+              <img src="../../../public/assets/img/team/team-1-6.jpg" alt="team image">
+            </div>
+            <div class="team-body">
+              <div class="team-content">
+                <div>
+                  <h4 class="team-name">Rodja Hartmaan</h4>
+                  <span class="team-degi">CEO, Events BD</span>
+                </div>
+                <div>
+                  <div class="team-social">
+                    <ul>
+                      <li>
+                        <a href="#"><i class="far fa-share-alt"></i></a>
+                        <ul>
+                          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <ul class="team-bottom">
+                <li>
+                  <a href="tel:+88 (099) 8764 321">
+                    <span><i class="fas fa-phone-alt"></i></span>+88 (099) 8764 321
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:info@example.com">
+                    <span><i class="fas fa-envelope"></i></span>info@example.com
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <!-- Login Area End -->
+  </div>
+  <!-- Team End -->
   <!-- Newsletter Area -->
   <div class="newsletter-layout1">
     <div class="overlay"></div>
@@ -620,7 +809,7 @@
           </div>
           <div class="col-md-6 col-xl-auto">
             <div class="widget footer-widget">
-              <h3 class="widget_title">Our Instagram<img src="assets/img/shapes/d-1-1.svg"></h3>
+              <h3 class="widget_title">Our Instagram<img src="../../../public/assets/img/shapes/d-1-1.svg"></h3>
               <div class="sidebar-gallery">
                 <div class="gallery-thumb">
                   <img src="../../../public/assets/img/widget/gal-1-1.jpg" alt="Gallery Image" class="w-100">

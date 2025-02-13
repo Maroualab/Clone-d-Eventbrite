@@ -12,7 +12,6 @@
   <!-- Mobile Specific Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Favicons - Place favicon.ico in the root directory -->
-  <link rel="apple-touch-icon" sizes="57x57" href="../../../public/assets/img/favicons/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="../../../public/assets/img/favicons/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="../../../public/assets/img/favicons/apple-icon-72x72.png">
   <link rel="apple-touch-icon" sizes="76x76" href="../../../public/assets/img/favicons/apple-icon-76x76.png">
@@ -38,7 +37,7 @@
 	    All CSS File
 	============================== -->
   <!-- Bootstrap -->
-  <!-- <link rel="stylesheet" href="assets/css/app.min.css"> -->
+  <!-- <link rel="stylesheet" href="../../../public/assets/css/app.min.css"> -->
   <link rel="stylesheet" href="../../../public/assets/css/bootstrap.min.css">
   <!-- Fontawesome Icon -->
   <link rel="stylesheet" href="../../../public/assets/css/fontawesome.min.css">
@@ -80,6 +79,14 @@
       </div>
       <div class="vs-mobile-menu">
         <ul>
+          <li class="menu-item-has-children">
+            <a href="index.html">Home</a>
+            <ul class="sub-menu">
+              <li><a href="index.html">Home 1</a></li>
+              <li><a href="index-2.html">Home 2</a></li>
+              <li><a href="index-3.html">Home 3</a></li>
+            </ul>
+          </li>
           <li>
             <a href="about.html">About Us</a>
           </li>
@@ -216,7 +223,7 @@
           </div>
           <div class="recent-post">
             <div class="media-img">
-              <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
+              <a href="blog-details.html"><img src="../../../public/assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
             </div>
             <div class="media-body">
               <h4 class="post-title">
@@ -282,7 +289,7 @@
           <div class="row gx-50 justify-content-between align-items-center gx-sm-0">
             <div class="col">
               <div class="header-logo">
-                <a href="index.html"><img src="assets/img/logo.svg" alt="Eventino" class="logo" width="135" height="60px"></a>
+                <a href="index.html"><img src="../../../public/assets/img/logo.svg" alt="Eventino" class="logo" width="135" height="60px"></a>
               </div>
             </div>
             <div class="col-auto header-info d-none d-lg-flex pe-0">
@@ -445,96 +452,90 @@
     <img src="../../../public/assets/img/shapes/b-1-1.png" alt="shape" class="shape">
     <div class="container z-index-common">
       <div class="breadcumb-content">
-        <h1 class="breadcumb-title">Login</h1>
+        <h1 class="breadcumb-title">Contact Us</h1>
         <div class="breadcumb-menu-wrap">
           <ul class="breadcumb-menu">
             <li><a href="index.html">Home</a></li>
-            <li>Pages</li>
-            <li>Login</li>
+            <li>Contact</li>
           </ul>
         </div>
       </div>
     </div>
   </div>
   <!-- Service Area -->
-  <!-- Login Area -->
+  <!-- Contact Area -->
   <section class="space-top space-extra-bottom">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 mx-auto">
-          <div class="auth-style">
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-              <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Login</button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Register</button>
-              </li>
-            </ul>
-            <div class="auth-social">
-              <h5 class="auth-title">Log In Directly With</h5>
-              <div class="footer-social style3">
-                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.google.com/"><i class="fab fa-google"></i></a>
-                <a href="https://www.gmail.com/"><i class="fas fa-envelope"></i></a>
+        <div class="col-lg-6 mb-30">
+          <div class="contact-box">
+            <h3 class="contact-box__title h4">USA Office Address</h3>
+            <p class="contact-box__text">Completely recapitalize 24/7 communities via standards
+              compliant metrics whereas web-enabled content</p>
+            <div class="contact-box__item">
+              <div class="contact-box__icon"><i class="fal fa-phone-alt"></i></div>
+              <div class="media-body">
+                <h4 class="contact-box__label">Phone Number &amp; Email</h4>
+                <p class="contact-box__info"><a href="tel:+310259121563">+(310) 2591 21563</a><a href="mailto:info@example.com">info@example.com</a></p>
               </div>
             </div>
-            <div class="tab-content" id="myTabContent">
-              <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-                <form class="auth-form">
-                  <label class="auth-label" for="mobile_code">Phone Number</label>
-                  <div class="form-group">
-                    <input id="phone1" type="tel" placeholder="+880">
-                  </div>
-                  <div class="d-flex">
-                    <a href="about.html" class="vs-btn w-100" tabindex="0">
-                      Log In
-                    </a>
-                  </div>
-                  <p class="auth-link">Not A Member? <a href="register.html">Register</a></p>
-                </form>
-              </div>
-              <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-                <form class="auth-form style2">
-                  <div class="form-group">
-                    <label class="auth-label" for="mobile_code">First Name</label>
-                    <div>
-                      <input type="text" placeholder="First Name" class="form-control">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="auth-label" for="mobile_code">Last Name</label>
-                    <div>
-                      <input type="text" placeholder="Last Name" class="form-control">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="auth-label" for="mobile_code">User Name</label>
-                    <div>
-                      <input type="text" placeholder="User Name" class="form-control">
-                    </div>
-                  </div>
-                  <div class="form-group last">
-                    <label class="auth-label" for="mobile_code">Phone Number</label>
-                    <div>
-                      <input id="phone2" type="tel" placeholder="+880">
-                    </div>
-                  </div>
-                  <div class="d-flex">
-                    <a href="about.html" class="vs-btn w-100" tabindex="0">
-                      Register
-                    </a>
-                  </div>
-                  <p class="auth-link">Already Registered? <a href="login.html">Login</a></p>
-                </form>
+            <div class="contact-box__item">
+              <div class="contact-box__icon"><i class="far fa-map-marker-alt"></i></div>
+              <div class="media-body">
+                <h4 class="contact-box__label">Our Office Address</h4>
+                <p class="contact-box__info">258 Dancing Street, Miland Line, HUYI 21563,
+                  FrankFrut</p>
               </div>
             </div>
+            <div class="contact-box__item">
+              <div class="contact-box__icon"><i class="far fa-clock"></i></div>
+              <div class="media-body">
+                <h4 class="contact-box__label">Official Work Time</h4>
+                <p class="contact-box__info">7:00am - 6:00pm ( Mon - Fri ) Sat, Sun &amp; Holiday
+                  Closed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-30">
+          <div class="contact-box">
+            <h3 class="contact-box__title h4">Leave a Message</h3>
+            <p class="contact-box__text">We’re Ready To Help You</p>
+            <form class="contact-box__form ajax-contact" action="mail.php" method="POST">
+              <div class="row gx-20">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" id="name" placeholder="Your Name">
+                  <i class="fal fa-user"></i>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="email" name="email" id="email" placeholder="Email Address">
+                  <i class="fal fa-envelope"></i>
+                </div>
+                <div class="col-12 form-group">
+                  <select name="subject" id="subject">
+                    <option selected="" disabled="" hidden="">Select subject</option>
+                    <option value="Web Development">Web Development</option>
+                    <option value="UI Design">UI Design</option>
+                    <option value="CMS Development">CMS Development</option>
+                    <option value="Theme Development">Theme Development</option>
+                    <option value="Wordpress Development">Wordpress Development</option>
+                  </select>
+                </div>
+                <div class="col-12 form-group">
+                  <textarea name="message" id="message" placeholder="Type Your Message"></textarea>
+                </div>
+                <div class="col-12">
+                  <button class="vs-btn">Submit Message<i class="far fa-arrow-right"></i></button>
+                </div>
+              </div>
+            </form>
+            <p class="form-messages mb-0 mt-3"></p>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- Login Area End -->
+  <!-- Contact Area End -->
   <!-- Newsletter Area -->
   <div class="newsletter-layout1">
     <div class="overlay"></div>
@@ -620,7 +621,7 @@
           </div>
           <div class="col-md-6 col-xl-auto">
             <div class="widget footer-widget">
-              <h3 class="widget_title">Our Instagram<img src="assets/img/shapes/d-1-1.svg"></h3>
+              <h3 class="widget_title">Our Instagram<img src="../../../public/assets/img/shapes/d-1-1.svg"></h3>
               <div class="sidebar-gallery">
                 <div class="gallery-thumb">
                   <img src="../../../public/assets/img/widget/gal-1-1.jpg" alt="Gallery Image" class="w-100">
