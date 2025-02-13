@@ -43,7 +43,7 @@ class AuthController {
                 die("Registration failed.");
             }
         }
-        require_once $_SERVER['DOCUMENT_ROOT'] . '/app/views/front/authentification.php';
+        require_once $_SERVER['DOCUMENT_ROOT'] . '/app/views/front/login.php';
 
     }
 
@@ -59,7 +59,7 @@ class AuthController {
                 die("Invalid email or password.");
             }
         }
-        require_once $_SERVER['DOCUMENT_ROOT'] . '/app/views/front/authentification.php';
+        require_once $_SERVER['DOCUMENT_ROOT'] . '/app/views/front/login.php';
 
     }
 
