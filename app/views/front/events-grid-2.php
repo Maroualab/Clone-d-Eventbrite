@@ -80,14 +80,6 @@
       </div>
       <div class="vs-mobile-menu">
         <ul>
-          <li class="menu-item-has-children">
-            <a href="index.html">Home</a>
-            <ul class="sub-menu">
-              <li><a href="index.html">Home 1</a></li>
-              <li><a href="index-2.html">Home 2</a></li>
-              <li><a href="index-3.html">Home 3</a></li>
-            </ul>
-          </li>
           <li>
             <a href="about.html">About Us</a>
           </li>
@@ -530,11 +522,6 @@
           <div class="event-tab">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
               <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
-                  <i class="fas fa-th-large"></i>
-                </button>
-              </li>
-              <li class="nav-item" role="presentation">
                 <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
                   <i class="fas fa-th"></i>
                 </button>
@@ -544,7 +531,7 @@
         </div>
       </div>
       <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+        <!-- <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
           <div class="row">
             <div class="col-md-6 Business Art More">
               <div class="event-style3">
@@ -782,7 +769,8 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
+        <!-- meryam -->
         <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
           <div class="row">
             <div class="col-md-6 col-lg-4 Business Art More">

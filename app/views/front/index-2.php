@@ -49,7 +49,7 @@
   <!-- Custom Phone Number Input -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@23.7.3/build/css/intlTelInput.css">
   <!-- Theme Custom CSS -->
-  <link rel="stylesheet" href="../../../public/assets/css/style.css">
+  <link rel="stylesheet" href="../../../public/assets/css/style.css?v=1.0">
 </head>
 
 <body>
@@ -66,6 +66,7 @@
     <button class="vs-btn preloaderCls">Cancel Preloader </button>
     <div class="preloader-inner">
       <img src="../../../public/assets/img/logo.svg" alt="logo">
+      <!-- <img src="../../../public/assets/images/logo-icon.png" alt="logo"> -->
       <span class="loader"></span>
     </div>
   </div>
@@ -500,7 +501,7 @@
       <div>
         <div class="hero-inner">
           <div class="overlay"></div>
-          <div class="hero-bg" data-bg-src="../../../public/assets/img/bg/h-1-2.jpg"></div>
+          <div class="hero-bg" data-bg-src="../../../public/assets/img/bg/h-1-1.jpg"></div>
           <div class="container">
             <div class="row justify-content-between">
               <div class="col-lg-6">
@@ -742,12 +743,12 @@
         </div>
         <div class="col-auto d-none d-lg-block">
           <div class="sec-btns style1">
-            <button class="vs-btn" data-slick-prev="#service-slider1">
+            <!-- <button class="vs-btn" data-slick-prev="#service-slider1">
               <i class="far fa-arrow-left"></i>
             </button>
             <button class="vs-btn" data-slick-next="#service-slider1">
               <i class="far fa-arrow-right"></i>
-            </button>
+            </button> -->
           </div>
         </div>
       </div>
@@ -808,21 +809,6 @@
             </div>
             <div class="service-content">
               <h2 class="service-name"><a href="service-details.html">Office Party</a></h2>
-              <span class="service-price">Start from <span>$1.400-$2.000</span></span>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="service-style1">
-            <div class="overlay"></div>
-            <a href="service-details.html" class="service-plus">
-              <i class="far fa-plus"></i>
-            </a>
-            <div class="service-img">
-              <img src="../../../public//img/services/s-1-5.jpg" alt="service image">
-            </div>
-            <div class="service-content">
-              <h2 class="service-name"><a href="service-details.html">Friends Party</a></h2>
               <span class="service-price">Start from <span>$1.400-$2.000</span></span>
             </div>
           </div>
