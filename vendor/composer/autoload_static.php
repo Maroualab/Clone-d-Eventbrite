@@ -13,9 +13,9 @@ class ComposerStaticInit108be68e4e2b97fed51d36a10eed0849
     );
 
     public static $prefixLengthsPsr4 = array (
-        'Y' => 
+        'a' => 
         array (
-            'Youcode\\EventinoEventMeetupConferenceHtmlTemplate20241008093500Utc\\' => 67,
+            'app\\' => 4,
         ),
         'S' => 
         array (
@@ -38,9 +38,9 @@ class ComposerStaticInit108be68e4e2b97fed51d36a10eed0849
     );
 
     public static $prefixDirsPsr4 = array (
-        'Youcode\\EventinoEventMeetupConferenceHtmlTemplate20241008093500Utc\\' => 
+        'app\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/app',
         ),
         'Symfony\\Polyfill\\Php80\\' => 
         array (

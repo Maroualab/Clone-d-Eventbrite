@@ -1,6 +1,6 @@
 <?php
-namespace Config;
-require_once "../../../vendor/autoload.php";
+namespace app\config;
+require_once $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
 
 use PDO;
 use PDOException;

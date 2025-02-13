@@ -265,7 +265,7 @@
           <div class="text-center">
             <span class="sec-subtitle2">Error Page</span>
             <h2 class="sec-title mb-50">Oops! That Page Can't Be Found.</h2>
-            <a href="index.html" class="vs-btn">Go Back to home</a>
+            <a href="/" class="vs-btn">Go Back to home</a>
           </div>
         </div>
       </div>

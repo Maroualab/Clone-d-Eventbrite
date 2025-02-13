@@ -1,8 +1,8 @@
 {
-    "name": "youcode/Clone-d-Eventbrite",
+    "name": "youcode/clone-eventbrite",
     "autoload": {
         "psr-4": {
-            "Youcode\\EventinoEventMeetupConferenceHtmlTemplate20241008093500Utc\\": "src/"
+            "app\\": "app/"
         }
     },
     "authors": [
@@ -11,5 +11,13 @@
             "email": "labballimaroua@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=8.0",
+        "ext-pdo": "*",
+        "ext-pgsql": "*"
+    },
+    "require-dev": {
+        "vlucas/phpdotenv": "^5.5",
+        "phpunit/phpunit": "^10.0"
+    }
 }
