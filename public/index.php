@@ -1,23 +1,13 @@
 <?php
 session_start();
 
-require_once '../config/database.php';
-require_once '../controllers/AuthController.php';
+require_once  '../vendor/autoload.php';
+use App\core\routes\Routes;
 
-use Controllers\AuthController;
-
-$authController = new AuthController();
-
+$methode = $_SERVER['REQUEST_METHOD'];
 $uri = $_SERVER['REQUEST_URI'];
 
-switch ($uri) {
-    case '/register':
-        $authController->register();
-        break;
-    case '/login':
-        $authController->login();
-        break;
-    case '/logout':
-        $authController->logout();
-        break;
-}
+$cleanuri = str_replace('/Clone-d-Eventbrite/public', '', strtok($uri, '?'));
+
+$routes = new Routes();
+$routes->dispatch($_SERVER['REQUEST_METHOD'], $_SERVER['REQUEST_URI']);

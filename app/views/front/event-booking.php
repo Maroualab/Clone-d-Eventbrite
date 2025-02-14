@@ -276,8 +276,8 @@
                 <a href="#"><i class="fab fa-youtube"></i></a>
               </div>
               <div class="header-links d-none d-md-flex">
-                <a href=""><i class="fas fa-user"></i>Register</a>
-                <a href=""><i class="fas fa-lock"></i>Login</a>
+                <a href="/login"><i class="fas fa-user"></i>Register</a>
+                <a href="/login"><i class="fas fa-lock"></i>Login</a>
               </div>
             </div>
           </div>
@@ -526,117 +526,61 @@
               </tr>
             </table>
           </div>
-          <h3 class="sec-title mb-30">Registration Information</h3>
-          <form class="form-style4 ajax-contact mb-50" action="mail.php" method="post">
-            <h4 class="sec-title h5 mb-25">Ticket Buyer</h4>
-            <div class="row gx-20 mb-20">
-              <div class="col-md-6 form-group">
-                <input class="form-control" type="text" name="fname" id="finame" placeholder="First Name">
-              </div>
-              <div class="col-md-6 form-group">
-                <input class="form-control" type="text" name="lname" id="laname" placeholder="Last Name">
-              </div>
-              <div class="col-md-6 form-group">
-                <input class="form-control" type="email" name="email" id="email" placeholder="Email Address">
-              </div>
-              <div class="col-md-6 form-group">
-                <input class="form-control" type="email" name="email" id="email" placeholder="Confirm Email Address">
-              </div>
-            </div>
-            <h4 class="sec-title h5 mb-25">Payment</h4>
-            <div class="row gx-20 mb-10">
-              <div class="col-md-6 form-group">
-                <select class="form-control" name="subject" id="subject" tabindex="0">
-                  <option value="Select Your Payment Method">Select Your Payment Method</option>
-                  <option value="Oil Change">Oil Change</option>
-                  <option value="Tire Rotation">Tire Rotation</option>
-                  <option value="Brake Inspection">Brake Inspection</option>
-                  <option value="Engine Tune-Up">Engine Tune-Up</option>
-                  <option value="Transmission Flush">Transmission Flush</option>
-                </select>
-              </div>
-              <div class="col-md-6 form-group">
-                <input class="form-control" type="tel" name="tel" id="tel" placeholder="Number" tabindex="0">
-              </div>
-            </div>
-            <h4 class="sec-title h5 mb-25">Expired Date</h4>
-            <div class="row gx-20 mb-10">
-              <div class="col-md-4 form-group">
-                <select class="form-control" name="subject" id="subject" tabindex="0">
-                  <option value="Select Your Payment Method">Select Your Payment Method</option>
-                  <option value="Oil Change">Oil Change</option>
-                  <option value="Tire Rotation">Tire Rotation</option>
-                  <option value="Brake Inspection">Brake Inspection</option>
-                  <option value="Engine Tune-Up">Engine Tune-Up</option>
-                  <option value="Transmission Flush">Transmission Flush</option>
-                </select>
-              </div>
-              <div class="col-md-4 form-group">
-                <select class="form-control" name="subject" id="subject" tabindex="0">
-                  <option value="Year">Year</option>
-                  <option value="Oil Change">Oil Change</option>
-                  <option value="Tire Rotation">Tire Rotation</option>
-                  <option value="Brake Inspection">Brake Inspection</option>
-                  <option value="Engine Tune-Up">Engine Tune-Up</option>
-                  <option value="Transmission Flush">Transmission Flush</option>
-                </select>
-              </div>
-              <div class="col-md-4 form-group">
-                <input class="form-control" type="tel" name="tel" id="tel" placeholder="CSV" tabindex="0">
-              </div>
-            </div>
-          </form>
-          <h3 class="sec-title mb-30">Billing Information</h3>
-          <form class="form-style4 ajax-contact" action="mail.php" method="post">
-            <div class="row gx-20 mb-30">
-              <div class="col-md-6 form-group">
-                <select class="form-control" name="subject" id="subject" tabindex="0">
-                  <option value="Select Country">Select Country</option>
-                  <option value="Oil Change">Oil Change</option>
-                  <option value="Tire Rotation">Tire Rotation</option>
-                  <option value="Brake Inspection">Brake Inspection</option>
-                  <option value="Engine Tune-Up">Engine Tune-Up</option>
-                  <option value="Transmission Flush">Transmission Flush</option>
-                </select>
-              </div>
-              <div class="col-md-6 form-group">
-                <input class="form-control" type="text" name="lname" id="laname" placeholder="Address">
-              </div>
-              <div class="col-md-12 form-group">
-                <input class="form-control" type="email" name="email" id="email" placeholder="Alternative Address">
-              </div>
-              <div class="col-md-4 form-group">
-                <select class="form-control" name="subject" id="subject" tabindex="0">
-                  <option value="States">States</option>
-                  <option value="Oil Change">Oil Change</option>
-                  <option value="Tire Rotation">Tire Rotation</option>
-                  <option value="Brake Inspection">Brake Inspection</option>
-                  <option value="Engine Tune-Up">Engine Tune-Up</option>
-                  <option value="Transmission Flush">Transmission Flush</option>
-                </select>
-              </div>
-              <div class="col-md-4 form-group">
-                <select class="form-control" name="subject" id="subject" tabindex="0">
-                  <option value="City">City</option>
-                  <option value="Oil Change">Oil Change</option>
-                  <option value="Tire Rotation">Tire Rotation</option>
-                  <option value="Brake Inspection">Brake Inspection</option>
-                  <option value="Engine Tune-Up">Engine Tune-Up</option>
-                  <option value="Transmission Flush">Transmission Flush</option>
-                </select>
-              </div>
-              <div class="col-md-4 form-group">
-                <input class="form-control" type="email" name="email" id="email" placeholder="Zip Code">
+          <h3 class="sec-title mb-30">Event Information</h3>
+            <form class="form-style4 ajax-contact mb-50" action="" method="post">
+              <div class="row gx-20 mb-20">
+                <div class="col-md-12 form-group">
+                  <input class="form-control" type="text" name="title" id="title" placeholder="Title of Event" required>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input class="form-control" type="date" name="date" id="date" placeholder="Date" required>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input class="form-control" type="text" name="location" id="location" placeholder="Location" required>
+                </div>
+                <div class="col-md-12 form-group">
+                  <textarea class="form-control" name="description" id="description" placeholder="Description" required></textarea>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="hidden" name="state" value="private">
+                </div>
+                <div class="col-md-6 form-group">
+                  <input class="form-control" type="number" name="price" id="price" placeholder="Price" step="0.01" required>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input class="form-control" type="number" name="capacity" id="capacity" placeholder="Event Capacity" required>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input class="form-control" type="text" name="image" id="image" placeholder="Image URL" required>
+                </div>
               </div>
               <div class="col-lg-4">
                 <div class="d-flex pt-10">
-                  <a href="about.html" class="vs-btn w-100" tabindex="0">
-                    Pay Now
-                  </a>
+                  <button type="submit" class="vs-btn w-100" tabindex="0">
+                    Submit Event
+                  </button>
                 </div>
               </div>
-            </div>
-          </form>
+            </form>
+            <h3 class="sec-title mb-30">Promo Code Information</h3>
+            <form class="form-style4 ajax-contact" action="mail.php" method="post">
+              <div class="row gx-20 mb-30">
+                <div class="col-md-6 form-group">
+                  <input class="form-control" type="text" name="code_promo" id="code_promo" placeholder="Promo Code" required>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input class="form-control" type="number" name="max_usage" id="max_usage" placeholder="Maximum Usage" required>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex pt-10">
+                  <button type="submit" class="vs-btn w-100" tabindex="0">
+                    Add Promo Code
+                  </button>
+                </div>
+              </div>
+            </form>
+
         </div>
         <div class="col-lg-4">
           <div class="sidebar-area">

@@ -1,0 +1,13 @@
+RewriteEngine On
+
+#Ignore requests for existing files and directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#Redirect all other requests to Public/index.php
+RewriteCond %{REQUEST_URI} !^/Public/
+RewriteRule ^(.*)$ /Public/index.php [QSA,L]
+
+#Handle the root path specifically
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule ^$ /Public/index.php [QSA,L]
