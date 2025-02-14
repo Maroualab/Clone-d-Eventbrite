@@ -453,52 +453,41 @@
     <img src="../../../public/assets/img/shapes/b-1-1.png" alt="shape" class="shape">
     <div class="container z-index-common">
       <div class="breadcumb-content">
-        <h1 class="breadcumb-title">Events Booking</h1>
+        <h1 class="breadcumb-title">organisateur</h1>
         <div class="breadcumb-menu-wrap">
           <ul class="breadcumb-menu">
             <li><a href="index.html">Home</a></li>
             <li>Pages</li>
-            <li>Events Booking</li>
+            <li>organisatuer</li>
           </ul>
         </div>
       </div>
     </div>
   </div>
   <!-- Event Registration -->
-  <section class="ebooking-wrap1 smoke-bg">
-    <div class="container">
-      <div class="row justify-content-between">
-        <div class="col-lg-6 mb-30">
-          <h2 class="sec-title">Please Complete Registration Within 12.00 Hours</h2>
-          <p class="sec-text mb-0">After 12.00 hours, the reservation we’re holding will be released to others.</p>
-        </div>
-        <div class="col-lg-auto mb-30">
-          <ul class="offer-counter" data-offer-date="12/08/2024">
-            <li>
-              <div class="day count-number">00</div><span class="count-name">Days</span>
-            </li>
-            <li>
-              <div class="hour count-number">00</div><span class="count-name">Hours</span>
-            </li>
-            <li>
-              <div class="minute count-number">00</div><span class="count-name">Minutes</span>
-            </li>
-            <li>
-              <div class="seconds count-number">00</div><span class="count-name">Seconds</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
+   
+  <!-- <section class="ebooking-wrap1 smoke-bg"> -->
+    <!-- <div class="container" style="margin: 70px;">
+    <div class="widget">
+              <h3 class="widget_title">
+                Event Details
+                <img src="../../../public/assets/img/shapes/d-1-2.svg">
+              </h3>
+              <form class="search-form">
+                <input type="text" placeholder="Search Here">
+                <button type="submit"><i class="far fa-search"></i></button>
+              </form>
+            </div>
+    </div> -->
+  <!-- </section> -->
   <!-- Event Registration End -->
   <!-- Event Details -->
   <div class="space-top space-extra-bottom">
     <div class="container">
-      <div class="row">
+      <div class="row" style="margin-top: -60px;">
         <div class="col-lg-8">
-          <h3 class="sec-title">Order Summary</h3>
-          <div class="order-summmary ebooking-wrap2">
+          <!-- <h3 class="sec-title">Order Summary</h3> -->
+          <!-- <div class="order-summmary ebooking-wrap2">
             <table>
               <tr>
                 <th>Event Title</th>
@@ -525,71 +514,69 @@
                 <td>$1,990.00</td>
               </tr>
             </table>
-          </div>
-          <h3 class="sec-title mb-30">Registration Information</h3>
+          </div> -->
+          <h3 class="sec-title mb-30">Informations sur l'événement</h3>
+          <img src="../../../public/assets/img/shapes/d-1-2.svg" style="margin-top: -50px;">
           <form class="form-style4 ajax-contact mb-50" action="mail.php" method="post">
-            <h4 class="sec-title h5 mb-25">Ticket Buyer</h4>
+            <!-- <h4 class="sec-title h5 mb-25">Informations sur l'événement</h4> -->
             <div class="row gx-20 mb-20">
               <div class="col-md-6 form-group">
-                <input class="form-control" type="text" name="fname" id="finame" placeholder="First Name">
+                <input class="form-control" type="text" name="fname" id="finame" placeholder="Titre">
               </div>
               <div class="col-md-6 form-group">
-                <input class="form-control" type="text" name="lname" id="laname" placeholder="Last Name">
+                <input class="form-control" type="date" name="lname" id="laname" placeholder="Date ">
               </div>
               <div class="col-md-6 form-group">
-                <input class="form-control" type="email" name="email" id="email" placeholder="Email Address">
+                <input class="form-control" type="lieu" name="email" id="email" placeholder="Lieu ">
               </div>
               <div class="col-md-6 form-group">
-                <input class="form-control" type="email" name="email" id="email" placeholder="Confirm Email Address">
+                <input class="form-control" type="text" name="email" id="email" placeholder="Description ">
+              </div>
+              <div class="col-md-6 form-group">
+                <input class="form-control" type="prix" name="email" id="email" placeholder="prix ">
+              </div>
+              <div class="col-md-6 form-group">
+                <input class="form-control" type="text" name="email" id="email" placeholder="capacité ">
               </div>
             </div>
-            <h4 class="sec-title h5 mb-25">Payment</h4>
-            <div class="row gx-20 mb-10">
+            <!-- <h4 class="sec-title h5 mb-25">Payment</h4> -->
+            <div class="row gx-20 mb-10" style="margin-top: -20px;">
               <div class="col-md-6 form-group">
                 <select class="form-control" name="subject" id="subject" tabindex="0">
-                  <option value="Select Your Payment Method">Select Your Payment Method</option>
-                  <option value="Oil Change">Oil Change</option>
-                  <option value="Tire Rotation">Tire Rotation</option>
-                  <option value="Brake Inspection">Brake Inspection</option>
-                  <option value="Engine Tune-Up">Engine Tune-Up</option>
-                  <option value="Transmission Flush">Transmission Flush</option>
+                  <option value="Select Your Payment Method">Catégorie</option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
                 </select>
               </div>
               <div class="col-md-6 form-group">
-                <input class="form-control" type="tel" name="tel" id="tel" placeholder="Number" tabindex="0">
+              <select class="form-control" name="subject" id="subject" tabindex="0">
+                  <option value="Select Your Payment Method">État</option>
+                  <option value="privé">Privé</option>
+                  <option value="public">Public</option>
+                </select>
               </div>
             </div>
-            <h4 class="sec-title h5 mb-25">Expired Date</h4>
+            <h4 class="sec-title h5 mb-25">Code Promo</h4>
+            <img src="../../../public/assets/img/shapes/d-1-2.svg" style="margin-top: -50px;">
             <div class="row gx-20 mb-10">
               <div class="col-md-4 form-group">
-                <select class="form-control" name="subject" id="subject" tabindex="0">
-                  <option value="Select Your Payment Method">Select Your Payment Method</option>
-                  <option value="Oil Change">Oil Change</option>
-                  <option value="Tire Rotation">Tire Rotation</option>
-                  <option value="Brake Inspection">Brake Inspection</option>
-                  <option value="Engine Tune-Up">Engine Tune-Up</option>
-                  <option value="Transmission Flush">Transmission Flush</option>
-                </select>
+              <input class="form-control" type="tel" name="tel" id="tel" placeholder="Entrez le code promo" tabindex="0">
               </div>
               <div class="col-md-4 form-group">
-                <select class="form-control" name="subject" id="subject" tabindex="0">
-                  <option value="Year">Year</option>
-                  <option value="Oil Change">Oil Change</option>
-                  <option value="Tire Rotation">Tire Rotation</option>
-                  <option value="Brake Inspection">Brake Inspection</option>
-                  <option value="Engine Tune-Up">Engine Tune-Up</option>
-                  <option value="Transmission Flush">Transmission Flush</option>
-                </select>
+              <input class="form-control" type="tel" name="tel" id="tel" placeholder="Exemple: 10 (pour 10%)" tabindex="0">
               </div>
               <div class="col-md-4 form-group">
-                <input class="form-control" type="tel" name="tel" id="tel" placeholder="CSV" tabindex="0">
+                <input class="form-control" type="tel" name="tel" id="tel" placeholder="Nombre maximum d'utilisations" tabindex="0">
               </div>
             </div>
           </form>
-          <h3 class="sec-title mb-30">Billing Information</h3>
-          <form class="form-style4 ajax-contact" action="mail.php" method="post">
+          <!-- <h3 class="sec-title mb-30">prix total</h3>
+          <form class="form-style4 ajax-contact" action="mail.php" method="post"> -->
             <div class="row gx-20 mb-30">
-              <div class="col-md-6 form-group">
+              <!-- <div class="col-md-6 form-group">
                 <select class="form-control" name="subject" id="subject" tabindex="0">
                   <option value="Select Country">Select Country</option>
                   <option value="Oil Change">Oil Change</option>
@@ -598,8 +585,8 @@
                   <option value="Engine Tune-Up">Engine Tune-Up</option>
                   <option value="Transmission Flush">Transmission Flush</option>
                 </select>
-              </div>
-              <div class="col-md-6 form-group">
+              </div> -->
+              <!-- <div class="col-md-6 form-group">
                 <input class="form-control" type="text" name="lname" id="laname" placeholder="Address">
               </div>
               <div class="col-md-12 form-group">
@@ -614,8 +601,8 @@
                   <option value="Engine Tune-Up">Engine Tune-Up</option>
                   <option value="Transmission Flush">Transmission Flush</option>
                 </select>
-              </div>
-              <div class="col-md-4 form-group">
+              </div> -->
+              <!-- <div class="col-md-4 form-group">
                 <select class="form-control" name="subject" id="subject" tabindex="0">
                   <option value="City">City</option>
                   <option value="Oil Change">Oil Change</option>
@@ -624,22 +611,178 @@
                   <option value="Engine Tune-Up">Engine Tune-Up</option>
                   <option value="Transmission Flush">Transmission Flush</option>
                 </select>
-              </div>
-              <div class="col-md-4 form-group">
+              </div> -->
+              <!-- <div class="col-md-4 form-group">
                 <input class="form-control" type="email" name="email" id="email" placeholder="Zip Code">
-              </div>
-              <div class="col-lg-4">
+              </div> -->
+              <div class="col-lg-4" style="margin-top: -50px;">
                 <div class="d-flex pt-10">
                   <a href="about.html" class="vs-btn w-100" tabindex="0">
-                    Pay Now
+                    add now
                   </a>
                 </div>
               </div>
             </div>
-          </form>
+          <!-- </form> -->
         </div>
         <div class="col-lg-4">
           <div class="sidebar-area">
+            <div class="widget">
+              <h3 class="widget_title">
+                Events
+                <img src="../../../public/assets/img/shapes/d-1-2.svg">
+              </h3>
+              <form class="search-form">
+                <input type="text" placeholder="Search Here">
+                <button type="submit"><i class="far fa-search"></i></button>
+              </form>
+            </div>
+            <!-- <div class="widget">
+              <h3 class="widget_title">
+                Category
+                <img src="../../../public/assets/img/shapes/d-1-2.svg">
+              </h3>
+              <ul class="wp-block-categories-list wp-block-categories widget_categories">
+                <li class="cat-item cat-item-7">
+                  <a href="blog-details.html">
+                    Birthday Party
+                    <span class="cat-item__number">12</span>
+                  </a>
+                </li>
+                <li class="cat-item cat-item-1">
+                  <a href="blog-details.html">
+                    Office Meting
+                    <span class="cat-item__number">11</span>
+                  </a>
+                </li>
+                <li class="cat-item cat-item-5">
+                  <a href="blog-details.html">
+                    Wedding Party
+                    <span class="cat-item__number">14</span>
+                  </a>
+                </li>
+                <li class="cat-item cat-item-6">
+                  <a href="blog-details.html">
+                    University Program
+                    <span class="cat-item__number">34</span>
+                  </a>
+                </li>
+                <li class="cat-item cat-item-4">
+                  <a href="blog-details.html">
+                    Business Meting
+                    <span class="cat-item__number">58</span>
+                  </a>
+                </li>
+                <li class="cat-item cat-item-4">
+                  <a href="blog-details.html">
+                    Fastival
+                    <span class="cat-item__number">15</span>
+                  </a>
+                </li>
+              </ul>
+            </div> -->
+            <div class="widget">
+              <h3 class="widget_title">
+              ours events
+                <img src="../../../public/assets/img/shapes/d-1-2.svg">
+              </h3>
+              <div class="recent-post-wrap">
+                <div class="recent-post">
+                  <div class="media-img">
+                    <a href="blog-details.html"><img src="../../../public/assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="post-title">
+                      <a class="text-inherit" href="blog-details.html">
+                        Global Business Goal Make Life Easy From Tech
+                      </a>
+                    </h4>
+                    <div class="recent-post-meta">
+                      <a href="blog.html"><i class="fas fa-calendar-alt"></i>09 Aug, 2022</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="recent-post">
+                  <div class="media-img">
+                    <a href="blog-details.html"><img src="../../../public/assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="post-title">
+                      <a class="text-inherit" href="blog-details.html">
+                        Celebrating in Style High-Tech Solutions for Modern
+                      </a>
+                    </h4>
+                    <div class="recent-post-meta">
+                      <a href="blog.html"><i class="fas fa-calendar-alt"></i>05 Mar, 2022</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="recent-post">
+                  <div class="media-img">
+                    <a href="blog-details.html"><img src="../../../public/assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="post-title">
+                      <a class="text-inherit" href="blog-details.html">
+                        Events The Intersection of Technology and Fun
+                      </a>
+                    </h4>
+                    <div class="recent-post-meta">
+                      <a href="blog.html"><i class="fas fa-calendar-alt"></i>20 Jan, 2022</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="recent-post">
+                  <div class="media-img">
+                    <a href="blog-details.html"><img src="../../../public/assets/img/blog/recent-post-1-4.jpg" alt="Blog Image"></a>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="post-title">
+                      <a class="text-inherit" href="blog-details.html">
+                        Smart Parties How Tech is Revolutionizing Celebrations
+                      </a>
+                    </h4>
+                    <div class="recent-post-meta">
+                      <a href="blog.html"><i class="fas fa-calendar-alt"></i>20 Jan, 2022</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="widget">
+              <h3 class="widget_title">
+                Resent News
+                <img src="../../../public/assets/img/shapes/d-1-2.svg">
+              </h3>
+              <div class="sidebar-gallery">
+                <div class="gallery-thumb">
+                  <img src="../../../public/assets/img/widget/gal-d-1.jpg" alt="Gallery Image" class="w-100">
+                  <a href="../../../public/assets/img/widget/gal-d-1.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a>
+                </div>
+                <div class="gallery-thumb">
+                  <img src="../../../public/assets/img/widget/gal-d-2.jpg" alt="Gallery Image" class="w-100">
+                  <a href="../../../public/assets/img/widget/gal-d-2.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a>
+                </div>
+                <div class="gallery-thumb">
+                  <img src="../../../public/assets/img/widget/gal-d-3.jpg" alt="Gallery Image" class="w-100">
+                  <a href="../../../public/assets/img/widget/gal-d-3.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a>
+                </div>
+                <div class="gallery-thumb">
+                  <img src="../../../public/assets/img/widget/gal-d-4.jpg" alt="Gallery Image" class="w-100">
+                  <a href="../../../public/assets/img/widget/gal-d-4.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a>
+                </div>
+                <div class="gallery-thumb">
+                  <img src="../../../public/assets/img/widget/gal-d-5.jpg" alt="Gallery Image" class="w-100">
+                  <a href="../../../public/assets/img/widget/gal-d-5.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a>
+                </div>
+                <div class="gallery-thumb">
+                  <img src="../../../public/assets/img/widget/gal-d-6.jpg" alt="Gallery Image" class="w-100">
+                  <a href="../../../public/assets/img/widget/gal-d-6.jpg" class="popup-image gal-btn"><i class="fal fa-plus"></i></a>
+                </div>
+              </div>
+            </div> -->
+        <!-- <div class="col-lg-4"> -->
+          <!-- <div class="sidebar-area">
             <div class="widget">
               <h3 class="widget_title">
                 Event Details
@@ -798,7 +941,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -833,7 +976,7 @@
   </div>
   <!-- Newsletter Area End -->
   <!-- Footer Area -->
-  <footer class="footer-layout1">
+  <footer class="footer-layout1" style="margin: -130px;">
     <div class="widget-area">
       <div class="container">
         <div class="row justify-content-between">
