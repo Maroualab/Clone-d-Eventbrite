@@ -514,64 +514,6 @@
                 <td>$1,990.00</td>
               </tr>
             </table>
-<<<<<<< HEAD:app/views/front/event-booking.php
-          </div>
-          <h3 class="sec-title mb-30">Event Information</h3>
-            <form class="form-style4 ajax-contact mb-50" action="" method="post">
-              <div class="row gx-20 mb-20">
-                <div class="col-md-12 form-group">
-                  <input class="form-control" type="text" name="title" id="title" placeholder="Title of Event" required>
-                </div>
-                <div class="col-md-6 form-group">
-                  <input class="form-control" type="date" name="date" id="date" placeholder="Date" required>
-                </div>
-                <div class="col-md-6 form-group">
-                  <input class="form-control" type="text" name="location" id="location" placeholder="Location" required>
-                </div>
-                <div class="col-md-12 form-group">
-                  <textarea class="form-control" name="description" id="description" placeholder="Description" required></textarea>
-                </div>
-                <div class="col-md-6 form-group">
-                  <input type="hidden" name="state" value="private">
-                </div>
-                <div class="col-md-6 form-group">
-                  <input class="form-control" type="number" name="price" id="price" placeholder="Price" step="0.01" required>
-                </div>
-                <div class="col-md-6 form-group">
-                  <input class="form-control" type="number" name="capacity" id="capacity" placeholder="Event Capacity" required>
-                </div>
-                <div class="col-md-6 form-group">
-                  <input class="form-control" type="text" name="image" id="image" placeholder="Image URL" required>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="d-flex pt-10">
-                  <button type="submit" class="vs-btn w-100" tabindex="0">
-                    Submit Event
-                  </button>
-                </div>
-              </div>
-            </form>
-            <h3 class="sec-title mb-30">Promo Code Information</h3>
-            <form class="form-style4 ajax-contact" action="mail.php" method="post">
-              <div class="row gx-20 mb-30">
-                <div class="col-md-6 form-group">
-                  <input class="form-control" type="text" name="code_promo" id="code_promo" placeholder="Promo Code" required>
-                </div>
-                <div class="col-md-6 form-group">
-                  <input class="form-control" type="number" name="max_usage" id="max_usage" placeholder="Maximum Usage" required>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="d-flex pt-10">
-                  <button type="submit" class="vs-btn w-100" tabindex="0">
-                    Add Promo Code
-                  </button>
-                </div>
-              </div>
-            </form>
-
-=======
           </div> -->
           <h3 class="sec-title mb-30">Informations sur l'événement</h3>
           <img src="../../../public/assets/img/shapes/d-1-2.svg" style="margin-top: -50px;">
@@ -682,7 +624,6 @@
               </div>
             </div>
           <!-- </form> -->
->>>>>>> dev:app/views/front/organisateurOne.php
         </div>
         <div class="col-lg-4">
           <div class="sidebar-area">

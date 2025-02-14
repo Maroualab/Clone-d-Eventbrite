@@ -23,7 +23,7 @@ class ControllerView{
         require_once $_SERVER['DOCUMENT_ROOT'] . '/app/views/front/login.php';
     }
     public function DashboardOrganisateur(){
-        require_once $_SERVER['DOCUMENT_ROOT'] . '/app/views/front/event-booking.php';
+        require_once $_SERVER['DOCUMENT_ROOT'] . '/app/views/front/organisateurOne.php';
     }
     public function Login(){
         require_once $_SERVER['DOCUMENT_ROOT'] . '/app/views/front/login.php';
