@@ -76,16 +76,16 @@
   <div class="vs-menu-wrapper">
     <div class="vs-menu-area text-center">
       <div class="mobile-logo">
-        <a href="index.html"><img src="../../../public/assets/img/logo-white2.svg" alt="Carmax" class="logo"></a>
+        <a href="index-2.php"><img src="../../../public/assets/img/logo-white2.svg" alt="Carmax" class="logo"></a>
         <button class="vs-menu-toggle"><i class="fal fa-times"></i></button>
       </div>
       <div class="vs-mobile-menu">
         <ul>
           <li>
-            <a href="about.html">About Us</a>
+            <a href="about.php">About Us</a>
           </li>
           <li class="menu-item-has-children">
-            <a href="shop.html">Shop</a>
+            <a href="shop.php">Shop</a>
             <ul class="sub-menu">
               <li><a href="">Shop Grid</a></li>
               <li><a href="shop-sidebar.html">Shop Sidebar</a></li>
