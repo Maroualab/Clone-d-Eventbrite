@@ -1,8 +1,8 @@
 <?php
-namespace app\models;
+namespace App\models;
 require_once $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
 
-use app\config\Database;
+use App\config\Database;
 use PDO;
 
 class AuthModel {

@@ -1,5 +1,5 @@
 <?php
-namespace app\config;
+namespace App\config;
 require_once $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
 
 use PDO;

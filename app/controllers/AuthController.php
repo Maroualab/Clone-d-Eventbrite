@@ -1,9 +1,9 @@
 <?php
-namespace app\controllers;
+namespace App\controllers;
 require_once $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
 
 
-use app\models\AuthModel;
+use App\models\AuthModel;
 
 class AuthController {
     private $authModel;
@@ -43,7 +43,6 @@ class AuthController {
                 die("Registration failed.");
             }
         }
-        require_once $_SERVER['DOCUMENT_ROOT'] . '/app/views/front/login.php';
 
     }
 
@@ -59,7 +58,6 @@ class AuthController {
                 die("Invalid email or password.");
             }
         }
-        require_once $_SERVER['DOCUMENT_ROOT'] . '/app/views/front/login.php';
 
     }
 

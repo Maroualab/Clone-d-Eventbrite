@@ -276,8 +276,8 @@
                 <a href="#"><i class="fab fa-youtube"></i></a>
               </div>
               <div class="header-links d-none d-md-flex">
-                <a href=""><i class="fas fa-user"></i>Register</a>
-                <a href=""><i class="fas fa-lock"></i>Login</a>
+                <a href="/login"><i class="fas fa-user"></i>Register</a>
+                <a href="/login"><i class="fas fa-lock"></i>Login</a>
               </div>
             </div>
           </div>
