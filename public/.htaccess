@@ -1,0 +1,12 @@
+# Activer le moteur de réécriture d'URL
+RewriteEngine On
+
+# Définir la base (optionnel, remplacez "/" si votre projet est dans un sous-dossier)
+RewriteBase Clone-d-Eventbrite
+
+# Ignorer les fichiers et dossiers existants
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rediriger toutes les autres requêtes vers index.php
+RewriteRule ^(.*)$ index.php [QSA,L]

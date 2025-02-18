@@ -1,6 +1,5 @@
 <?php
-namespace Config;
-require_once "../../../vendor/autoload.php";
+namespace App\config;
 
 use PDO;
 use PDOException;
@@ -24,7 +23,6 @@ class Database {
                     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
                     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
                 ]);
-                echo "Connected successfully!";
             } catch (PDOException $exception) {
                 die("Connection error: " . $exception->getMessage());
             }
@@ -32,5 +30,3 @@ class Database {
         return self::$conn;
     }
 }
-
-Database::getConnection();
